@@ -4,133 +4,60 @@
     <div class="row">
       <div class="col-md-7 col-sm-12">
         <div class="block">
+
           <div class="section-title">
             <h2>Koncerty</h2>
             <p></p>
           </div>
 
-<!-- Table style -->
-<style>
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
+          <!-- Table style -->
+          <style>
+          table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+          }
 
-td, th {
-    border: 0px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
+          td, th {
+              border: 0px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+          }
 
-tr:nth-child(even) {
-    background-color: #eeeeee;
-}
-</style>
+          tr:nth-child(even) {
+              background-color: #eeeeee;
+          }
+          </style>
 
+          <table>
+            <tr>
+              <th>Kdy</th>
+              <th></th>
+              <th>Kde</th>
+              <th>Co</th>
+              <th>Odkaz</th>
+            </tr>
 
-<table>
-  <tr>
-    <th>Kolikátého</th>
-    <th>V kolik</th>
-    <th>Kde</th>
-    <th>Co</th>
-    <th>Odkaz</th>
-  </tr>
+            {% for event in site.data.events %}
+                
+              {% assign event_year = event.date | date: "%Y" %}
+              {% assign current_year = site.time | date: "%Y" %}
 
-  <tr>
-    <td>21.02.2017</td>
-    <td>20:00</td>
-    <td>Praha</td>
-    <td>Blues Bahnhof</td>
-    <td><a href="http://www.bluesbahnhof.com/">bluesbahnhof.com</a></td>
-  </tr>
-  <tr>
-    <td>30.04.2017</td>
-    <td>18:00</td>
-    <td>Trosky</td>
-    <td>Beltine</td>
-    <td><a href="http://beltine.trosky.eu/">beltine.trosky.eu</a></td>
-  </tr>
-  <tr>
-    <td>02.05.2017</td>
-    <td>20:00</td>
-    <td>Praha</td>
-    <td>Vagon</td>
-    <td><a href="http://mujweb.cz/triffid/">vagon</td>
-  </tr>
-  <tr>
-    <td>11.05.2017</td>
-    <td>19:30</td>
-    <td>Praha</td>
-    <td>Salmovská literární kavárna</td>
-    <td><a href="http://www.salmovska.cz/">salmovska.cz</a></td>
-  </tr>
-  <tr>
-    <td>16.05.2017</td>
-    <td></td>
-    <td>Praha</td>
-    <td>Narozeniny Petra Žantovského</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>08.07.2017</td>
-    <td></td>
-    <td>Poděbrady</td>
-    <td>Svatba</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>21.07.2017</td>
-    <td></td>
-    <td>Žamberk</td>
-    <td>Kovárnafest</td>
-    <td><a href="http://kovarnafest.cz/">kovarnafest.cz</a></td>
-  </tr>
-  <tr>
-    <td>29.07.2017</td>
-    <td></td>
-    <td>Nasavrky</td>
-    <td>Lughnasad</td>
-    <td><a href="http://www.lughnasad.cz/">lughnasad.cz</a></td>
-  </tr>
-  <tr>
-    <td>19.08.2017</td>
-    <td>17:45</td>
-    <td>Zámek Sychrov</td>
-    <td>Skotské hry</td>
-    <td><a href="http://www.skotskehry.cz/">skotskehry.cz</a></td>
-  </tr>
-  <tr>
-    <td>25.10.2017</td>
-    <td></td>
-    <td>Brno</td>
-    <td>Stará pekárna</td>
-    <td><a href="http://www.starapekarna.cz/">starapekarna.cz</a></td>
-  </tr>
-  <tr>
-    <td>21.11.2017</td>
-    <td>19:30</td>
-    <td>Praha</td>
-    <td>Salmovská literární kavárna</td>
-    <td><a href="http://www.salmovska.cz/">salmovska.cz</a></td>
-  </tr>
-</table>
+              {% if event_year >= current_year %}
+                <tr>
+                  <td>{{ event.date }}</td>
+                  <td>{{ event.time }}</td>
+                  <td>{{ event.place }}</td>
+                  <td>{{ event.name }}</td>
+                  <td><a href="{{ event.url }}">{{ event.url_name }}</a></td>
+                </tr>
+              {% endif %}
 
+            {% endfor %}
+          </table>
 
         </div>
       </div><!-- .col-md-7 close -->
-
-      <!--
-      <div class="col-md-5 col-sm-12">
-        <div class="block">
-        </br></br></br></br>
-          <img src="img/concerts.jpg" alt="The band">
-        </div>
-      </div>
-      -->
-
-          <!-- <img style="border-radius:50%" src="img/concerts.jpg" alt="The band"> -->
 
     </div>
   </div>
