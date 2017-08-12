@@ -168,26 +168,26 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	wrapper Start
 --*/
-#intro {
+#events {
   padding: 100px 0;
 }
-#intro .block h2 {
+#events .block h2 {
   padding-top: 35px;
   line-height: 27px;
   margin: 0;
 }
-#intro .block p {
+#events .block p {
   color: #7B7B7B;
   padding-top: 20px;
 }
-#intro .block img {
+#events .block img {
   padding-left: 40px;
   width: 100%;
 }
-#intro .section-title {
+#events .section-title {
   margin-bottom: 0px;
 }
-#intro .section-title p {
+#events .section-title p {
   padding-top: 20px;
 }
 /*--
