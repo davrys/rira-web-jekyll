@@ -15,9 +15,11 @@
           <ul class="counter-box clearfix">
             
             <li>
+              {% assign years = site.time | date: "%Y" | minus:2007 %} <!-- How many years is the band rehearsing -->
+              {% assign hours = years | times:24 | times:3 %} <!-- Two rehearsals per month * 3 hours duration -->
               <div class="block">
                 <i class="ion-clock"></i>
-                <h4 class="counter">721</h4>
+                <h4 class="counter">{{ hours }}</h4>
                 <span>Hodin na zkouškách</span>
               </div>
             </li>
@@ -31,9 +33,9 @@
             </li>
 
             <li>
+              {% assign events_count = site.data.events.size | minus:1 %}
               <div class="block">
                 <i class="ion-mic-b"></i>
-                {% assign events_count = site.data.events.size | minus:1 %}
                 <h4 class="counter">{{ events_count }}</h4>
                 <span>Koncertů</span>
               </div>
