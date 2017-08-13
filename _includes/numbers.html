@@ -16,7 +16,9 @@
             
             <li>
               {% assign years = site.time | date: "%Y" | minus:2007 %} <!-- How many years is the band rehearsing -->
-              {% assign hours = years | times:24 | times:3 %} <!-- Two rehearsals per month * 3 hours duration -->
+              {% assign months_this_year = site.time | date: "%m" %} <!-- Number of months passed this year -->
+              {% assign months = years | minus:1 | times:12 | plus:months_this_year %} <!-- How many months is the band rehearsing -->
+              {% assign hours = months | times:2 | times:3 %} <!-- Months * 2 rehearsals per month * 3 hours duration -->
               <div class="block">
                 <i class="ion-clock"></i>
                 <h4 class="counter">{{ hours }}</h4>
