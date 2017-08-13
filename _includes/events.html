@@ -7,7 +7,7 @@
 
           <div class="section-title">
             {% if include.all_events %}
-              <h2>Všechny koncerty</h2>
+              <h2>Historie koncertů</h2>
             {% else %}
               <h2>Koncerty</h2>
             {% endif %}
@@ -73,7 +73,7 @@
 
           </br>
           {% unless include.all_events %}
-            <a href="{{ site.baseurl }}{% link pages/all_events.html %}">Všechny koncerty</a>
+            <a href="{{ site.baseurl }}{% link pages/all_events.html %}">Historie koncertů</a>
           {% endunless %}
 
         </div> <!-- block -->
