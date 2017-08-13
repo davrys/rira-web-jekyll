@@ -35,7 +35,7 @@
             </li>
 
             <li>
-              {% assign events_count = site.data.events.size | minus:1 %}
+              {% assign events_count = site.data.events.size | minus:1 %} <!-- Minus first row (titles) -->
               <div class="block">
                 <i class="ion-mic-b"></i>
                 <h4 class="counter">{{ events_count }}</h4>
