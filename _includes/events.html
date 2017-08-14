@@ -6,6 +6,7 @@
         <div class="block">
 
           {% assign all_events = include.all_events %}
+
           <div class="section-title">
             {% if all_events %}
               <h2>Historie koncertů</h2>
@@ -16,6 +17,11 @@
           </div>
 
           <!-- Table style -->
+          {% assign title_row_color = "#cccccc" %}
+          {% assign background_color = "#ffffff" %}
+          {% assign even_row_color = "#ffffff" %}
+          {% assign odd_row_color = "#eeeeee" %}
+
           <style>
           table {
               font-family: arial, sans-serif;
@@ -24,18 +30,22 @@
           }
 
           td, th {
-              border: 0px solid #dddddd;
+              border: 0px solid {{ title_row_color }};
               text-align: left;
               padding: 8px;
           }
 
+          tr:nth-child(even) {
+              background-color: {{ even_row_color }};
+          }
           tr:nth-child(odd) {
-              background-color: #eeeeee;
+              background-color: {{ odd_row_color }};
           }
           </style>
 
+
           <table>
-            <tr style="background-color:#cccccc">
+            <tr style="background-color:{{ title_row_color }}">
               <th>Kdy</th>
               <th></th>
               <th>Kde</th>
@@ -45,7 +55,7 @@
 
             <!-- Empty row -->
             {% if all_events %}
-              <tr style="background-color:#ffffff;">
+              <tr style="background-color:{{ background_color }};">
                 <td colspan="5"></td>
               </tr>
               {% assign last_year = event_year %}
@@ -62,31 +72,43 @@
 
             <!-- Last displayed year -->
             {% assign last_year = 0 %}
+            <!-- Current row color -->
+            {% assign row_color = even_row_color %}
 
             <!-- For each event... -->
             {% for event in events %}
-                
               {% assign event_year = event.date | date: "%Y" %}
               {% assign current_year = site.time | date: "%Y" %}
               
               {% if all_events or event_year >= current_year %}
+                {% if event_year != last_year %}
+                  <!-- Row with year -->
+                  {% if all_events %}
+                    <tr style="background-color:{{ title_row_color }};">
+                      <td colspan="5"><b>{{ event_year }}</b></td>
+                    </tr>
+                  {% endif %}
 
-                <!-- Row with year -->
-                {% if all_events and event_year != last_year %}
-                  <tr style="background-color:#cccccc;">
-                    <td colspan="5"><b>{{ event_year }}</b></td>
-                  </tr>
                   {% assign last_year = event_year %}
+                  <!-- Next row after title should have always even_row_color -->
+                  {% assign row_color = even_row_color %}
                 {% endif %}
 
                 <!-- Regular row with all data -->
-                <tr>
+                <tr style="background-color:{{ row_color }};">
                   <td>{{ event.date | date: "%d.%m.%Y" }}</td>
                   <td>{{ event.time }}</td>
                   <td>{{ event.place }}</td>
                   <td>{{ event.name }}</td>
                   <td><a href="{{ event.url }}">{{ event.url_name }}</a></td>
                 </tr>
+              {% endif %}
+
+              <!-- Swap row color -->
+              {% if row_color == even_row_color %}
+                {% assign row_color = odd_row_color %}
+              {% else %}
+                {% assign row_color = even_row_color %}
               {% endif %}
 
             {% endfor %}
