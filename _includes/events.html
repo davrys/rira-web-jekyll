@@ -5,8 +5,9 @@
       <div class="col-md-7 col-sm-12">
         <div class="block">
 
+          {% assign all_events = include.all_events %}
           <div class="section-title">
-            {% if include.all_events %}
+            {% if all_events %}
               <h2>Historie koncertů</h2>
             {% else %}
               <h2>Koncerty</h2>
@@ -43,7 +44,7 @@
             </tr>
 
             <!-- Sort events -->
-            {% if include.all_events %}
+            {% if all_events %}
               <!-- Sort events by date: descending (newest first) -->
               {% assign events = (site.data.events | sort: 'date') | reverse %}
             {% else %}
@@ -57,7 +58,7 @@
               {% assign event_year = event.date | date: "%Y" %}
               {% assign current_year = site.time | date: "%Y" %}
               
-              {% if include.all_events or event_year >= current_year %}
+              {% if all_events or event_year >= current_year %}
                 <tr>
                   <td>{{ event.date | date: "%d.%m.%Y" }}</td>
                   <td>{{ event.time }}</td>
@@ -72,7 +73,7 @@
           </table>
 
           </br>
-          {% unless include.all_events %}
+          {% unless all_events %}
             <a href="{{ site.baseurl }}{% link pages/all_events.html %}">Historie koncertů</a>
           {% endunless %}
 
