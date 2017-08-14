@@ -35,13 +35,21 @@
           </style>
 
           <table>
-            <tr>
+            <tr style="background-color:#cccccc">
               <th>Kdy</th>
               <th></th>
               <th>Kde</th>
               <th>Co</th>
               <th>Odkaz</th>
             </tr>
+
+            <!-- Empty row -->
+            {% if all_events %}
+              <tr style="background-color:#ffffff;">
+                <td colspan="5"></td>
+              </tr>
+              {% assign last_year = event_year %}
+            {% endif %}
 
             <!-- Sort events -->
             {% if all_events %}
@@ -63,14 +71,10 @@
               
               {% if all_events or event_year >= current_year %}
 
-                <!-- Row only with year -->
+                <!-- Row with year -->
                 {% if all_events and event_year != last_year %}
-                  <tr>
-                    <td><b>{{ event_year }}</b></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                  <tr style="background-color:#cccccc;">
+                    <td colspan="5"><b>{{ event_year }}</b></td>
                   </tr>
                   {% assign last_year = event_year %}
                 {% endif %}
