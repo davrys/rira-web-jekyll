@@ -56,9 +56,9 @@
             <!-- Empty row -->
             {% if all_events %}
               <tr style="background-color:{{ background_color }};">
+                <!-- Spread first column over all 5 columns -->
                 <td colspan="5"></td>
               </tr>
-              {% assign last_year = event_year %}
             {% endif %}
 
             <!-- Sort events -->
@@ -85,6 +85,7 @@
                   <!-- Row with year -->
                   {% if all_events %}
                     <tr style="background-color:{{ title_row_color }};">
+                      <!-- Spread first column over all 5 columns -->
                       <td colspan="5"><b>{{ event_year }}</b></td>
                     </tr>
                   {% endif %}
