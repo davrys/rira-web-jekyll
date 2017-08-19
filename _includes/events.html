@@ -6,6 +6,7 @@
         <div class="block">
 
           {% assign all_events = include.all_events %}
+          {% assign separate_years = include.separate_years %}
 
           <div class="section-title">
             {% if all_events %}
@@ -24,17 +25,21 @@
 
           <style>
           table {
-              font-family: arial, sans-serif;
-              border-collapse: collapse;
-              width: 100%;
+            <!-- Single line borders -->
+            <!-- https://www.w3schools.com/cssref/pr_border-collapse.asp -->
+            border-collapse: collapse;
+            border: 0px solid {{ background_color }};
           }
 
-          td, th {
-              border: 0px solid {{ title_row_color }};
+          th, td {
+              border: 0px solid {{ background_color }};
               text-align: left;
               padding: 8px;
           }
 
+          th {
+              background-color: {{ title_row_color }};
+          }
           tr:nth-child(even) {
               background-color: {{ even_row_color }};
           }
@@ -43,9 +48,10 @@
           }
           </style>
 
-
+          <!-- Show horizontal scrollbar if the table won't fit the screen -->
+          <div style="overflow-x:auto;">
           <table>
-            <tr style="background-color:{{ title_row_color }}">
+            <tr>
               <th>Kdy</th>
               <th></th>
               <th>Kde</th>
@@ -54,20 +60,18 @@
             </tr>
 
             <!-- Empty row -->
-            {% if all_events %}
+            {% if separate_years %}
               <tr style="background-color:{{ background_color }};">
                 <!-- Spread first column over all 5 columns -->
                 <td colspan="5"></td>
               </tr>
             {% endif %}
 
-            <!-- Sort events -->
+            <!-- Sort events by date -->
             {% if all_events %}
-              <!-- Sort events by date: descending (newest first) -->
-              {% assign events = (site.data.events | sort: 'date') | reverse %}
+              {% assign events = (site.data.events | sort: 'date') | reverse %} <!-- Descending (newest first) -->
             {% else %}
-              <!-- Sort events by date: ascending (oldest first) -->
-              {% assign events = (site.data.events | sort: 'date') %}
+              {% assign events = (site.data.events | sort: 'date') %} <!-- Ascending (oldest first) -->
             {% endif %}
 
             <!-- Last displayed year -->
@@ -79,19 +83,19 @@
             {% for event in events %}
               {% assign event_year = event.date | date: "%Y" %}
               {% assign current_year = site.time | date: "%Y" %}
-              
-              {% if all_events or event_year >= current_year %}
+
+              {% if all_events or event_year >= current_year %} <!-- Show the event? -->
+
+                <!-- New year; Diplay row with year -->
                 {% if event_year != last_year %}
-                  <!-- Row with year -->
-                  {% if all_events %}
-                    <tr style="background-color:{{ title_row_color }};">
-                      <!-- Spread first column over all 5 columns -->
-                      <td colspan="5"><b>{{ event_year }}</b></td>
+                  {% if separate_years %}
+                    <tr>
+                      <th colspan="5">{{ event_year }}</th>
                     </tr>
                   {% endif %}
 
                   {% assign last_year = event_year %}
-                  <!-- Next row after title should have always even_row_color -->
+                  <!-- Next row after header or title should have always even_row_color -->
                   {% assign row_color = even_row_color %}
                 {% endif %}
 
@@ -115,6 +119,7 @@
             {% endfor %}
 
           </table>
+          </div>
 
           </br>
           {% unless all_events %}
