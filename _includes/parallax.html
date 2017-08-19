@@ -1,0 +1,18 @@
+<!--
+This hack enables defining and using single .parallax class in a css file but using different images.
+The following code will create unique .parallax subclass (style) for each image which will be used immediately.
+-->
+<style>
+  .parallax.{{ include.image_name }} {
+    background-image: url({{ include.image_url }});
+  }
+</style>
+
+<div class="parallax {{ include.image_name }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+      </div>
+    </div>
+  </div>
+</div>
