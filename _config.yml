@@ -1,4 +1,4 @@
-
+# Build settings
 exclude:
   - "/ignore/"
   - "Gemfile"
@@ -12,10 +12,10 @@ keep_files:
   - ".git"
   - ".gitignore"
 
+markdown: kramdown
+
 
 # Site settings
-title: Rí Ra
-subtitle: "Víc než irská hudba"
 url: "http://rira.cz" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
@@ -28,8 +28,6 @@ path:
 # cover: "/assets/cover.png"
 # logo: "/assets/logo.png"
 
-# Build settings
-markdown: kramdown
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
@@ -38,3 +36,7 @@ markdown: kramdown
 descriptions:
   - cat: event
     desc: "Posts describing an event/gig/concert."
+
+
+title: Rí Ra
+subtitle: "Víc než irská hudba"
