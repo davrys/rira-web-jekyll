@@ -16,9 +16,15 @@ keep_files:
 # Site settings
 title: Rí Ra
 subtitle: "Víc než irská hudba"
-url: "http://rira.cz/" # the base hostname & protocol for your site
+url: "http://rira.cz" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
+# Paths
+path:
+  images:
+    background: "/images/background/"
+    members: "/images/members/"
+
 # cover: "/assets/cover.png"
 # logo: "/assets/logo.png"
 
