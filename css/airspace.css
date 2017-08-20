@@ -3,7 +3,7 @@
  * In airspace, it is called style.css
  * However, style.css now holds additional styles for this jekyll port. (Not written by ThemeFisher)
  * The original style.css is now called airspace.css
- * 
+ *
  */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
@@ -97,6 +97,8 @@ font header .navbar-default .navbar-nav li a:hover {
 
 /*--
   Parallax
+  Uses mobile-first approach.
+  The parallax effect is turned of by default and it is turned on only for bigger screens.
 --*/
 .parallax {
   /*
@@ -105,16 +107,16 @@ font header .navbar-default .navbar-nav li a:hover {
     See _includes/parallax.html */
     width: 100%;
     min-height: 400px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* Turn off parallax scrolling for small screens */
-@media only screen and (max-width: 760px) {
+/* Turn on parallax scrolling for bigger screens */
+@media only screen and (min-width: 768px) {
     .parallax {
-        background-attachment: scroll;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
     }
 }
 
