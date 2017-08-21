@@ -4,7 +4,7 @@ The following code will create unique .parallax subclass (style) for each image 
 -->
 <style>
   .parallax.{{ include.image_name }} {
-    {% capture image_url %}{{ site.baseurl }}{{ site.path.images.background }}{{ include.image_name }}.{{ include.image_extension }}{% endcapture %}
+    {% capture image_url %}{{ site.baseurl }}{{site.path.images.background}}{{ include.image_name }}.{{ include.image_extension }}{% endcapture %}
     background-image: url({{ image_url }});
   }
 </style>
@@ -12,6 +12,14 @@ The following code will create unique .parallax subclass (style) for each image 
 <div class="parallax {{ include.image_name }}">
   <div class="container">
     <div class="row">
+
+        <div class="col-md-11 col-md-offset-1">
+          <div class="block">
+            <h1 class="animated fadeInUp">VÍC NEŽ IRSKÁ HUDBA</h1>
+            <p class="animated fadeInUp"></p>
+          </div>
+        </div>
+
     </div>
   </div>
 </div>
