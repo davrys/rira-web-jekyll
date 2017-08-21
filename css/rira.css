@@ -1,0 +1,112 @@
+---
+---
+/* This set of triple-dashed lines with nothing in between will get Jekyll to process your file. */
+
+/*
+ * This is the main css file.
+ * Uses mobile-first approach.
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+@import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+
+/*--
+	Common Css
+--*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+h3 {
+  font-size: 28px;
+  font-weight: 300;
+}
+p {
+  font-size: 15px;
+  line-height: 28px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a,
+a:active,
+a:focus,
+a:active {
+  text-decoration: none !important;
+}
+
+
+
+
+/*--
+  Parallax
+
+  For flexibility and non-repetetive code purpose,
+  you have to specify the background-image by your own elsewhere.
+  See _includes/parallax.html
+--*/
+.parallax {
+  width: 100%;
+  min-height: 240px;
+  /* The parallax effect is turned off by default */
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Text decoration */
+.parallax .block {
+  color: #{{ site.color.text.primary_oposite }};
+  padding-top: 20%;
+}
+.parallax .block h1 {
+  letter-spacing: 10px;
+}
+.parallax .block p {
+  letter-spacing: 3px;
+}
+
+/* Image size for different screens */
+@media only screen and (min-width: 575px) {
+    .parallax {
+        min-height: 360px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .parallax {
+        min-height: 480px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .parallax {
+        min-height: 800px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .parallax {
+        min-height: 1000px;
+    }
+}
+
+/* Turn on parallax scrolling effect for bigger screens */
+@media only screen and (min-width: 768px) {
+    .parallax {
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+    }
+}

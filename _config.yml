@@ -1,4 +1,6 @@
+########################################
 # Build settings
+########################################
 exclude:
   - "/ignore/"
   - "Gemfile"
@@ -15,28 +17,53 @@ keep_files:
 markdown: kramdown
 
 
+########################################
 # Site settings
+########################################
+
+# Used in head.html
+author: Rí Ra
+title: Rí Ra
+description: "Oficiální stránky skupiny Rí Ra, hrající irské tradicionály a instrumentální skladby, lehce okořeněné funky přiznávkami a jazzovými vyhrávkami."
+
+########################################
+# Paths
+########################################
+permalink: pretty
+
 url: "http://rira.cz" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
-# Paths
+
 path:
   images:
     background: "/images/background/"
     members: "/images/members/"
 
-# cover: "/assets/cover.png"
-# logo: "/assets/logo.png"
+########################################
+# Optional features
+########################################
 
+style:
 
-# Google analytics
-# ga_tracking_id: "UA-XXXX-1"
+########################################
+# Colours
+########################################
+# hex-codes without the leading hash-tag
+color:
+  background:
+    primary: FFFFFF
+    secondary: F5F5F5
+  text:
+    primary: 333333
+    secondary: 777777
+    primary_oposite: FFFFFF
+
+########################################
+# Strings
+########################################
 
 # Category descriptions (for archive pages)
 descriptions:
   - cat: event
     desc: "Posts describing an event/gig/concert."
-
-
-title: Rí Ra
-subtitle: "Víc než irská hudba"
