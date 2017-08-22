@@ -1,24 +1,14 @@
-<!--
-This hack enables defining and using single .parallax class in a css file but using different images.
-The following code will create unique .parallax subclass (style) for each image which will be used immediately.
--->
-<style>
-  .parallax.{{ include.image_name }} {
-    {% capture image_url %}{{ site.baseurl }}{{site.path.images.background}}{{ include.image_name }}.{{ include.image_extension }}{% endcapture %}
-    background-image: url({{ image_url }});
-  }
-</style>
-
-<div class="parallax {{ include.image_name }}">
+{% capture top_slider_image_url %}{{ site.baseurl }}{{ site.path.images.background }}whisky-kilt.jpg{% endcapture %}
+<div class="parallax" style="background-image: url({{ top_slider_image_url }})">
   <div class="container">
     <div class="row">
 
-        <div class="col-md-11 col-md-offset-1">
-          <div class="block">
-            <h1 class="animated fadeInUp">VÍC NEŽ IRSKÁ HUDBA</h1>
-            <p class="animated fadeInUp"></p>
-          </div>
+      <div class="col-md-11 col-md-offset-1">
+        <div class="block">
+          <h1 class="animated fadeInUp">Víc než irská hudba</h1>
+          <h5 class="animated fadeInUp"></h5>
         </div>
+      </div>
 
     </div>
   </div>
