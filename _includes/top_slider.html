@@ -5,8 +5,13 @@
 
       <div class="col-md-11 col-md-offset-1">
         <div class="block">
-          <h1 class="animated fadeInUp">Víc než irská hudba</h1>
-          <h5 class="animated fadeInUp"></h5>
+          {% if site.style.animated %}
+            <h1 class="animated fadeInUp">Víc než irská hudba</h1>
+            <h5 class="animated fadeInUp"></h5>
+          {% else %}
+            <h1>Víc než irská hudba</h1>
+            <h5></h5>
+          {% endif %}
         </div>
       </div>
 
