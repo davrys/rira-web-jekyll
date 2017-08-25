@@ -1,6 +1,19 @@
 ---
-layout: landpage
+layout: page
 title: Rí Ra
 permalink: /
 ---
 
+{% include top_slider.html %}
+
+{% include about.html %}
+{% include video.html youtube_id={{ site.data.video.id.parting_glass }} %}
+{% include parallax.html image_name="neparkovat.jpg" %}
+
+{% include events.html %}
+{% include parallax.html image_name="stul.jpg" %}
+
+{% include members.html %}
+{% include parallax.html image_name="klobouky.jpg" %}
+
+{% include numbers.html %}
