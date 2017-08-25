@@ -60,12 +60,12 @@ ul {
 
 a {
   text-decoration: none !important;
-  color: #{{ site.data.color.text.primary }};
+  color: #{{ site.data.color.link.normal }};
 }
 a:hover,
 a:focus,
 a:active {
-  color: #{{ site.data.color.text.secondary }};
+  color: #{{ site.data.color.link.hover }};
 }
 
 

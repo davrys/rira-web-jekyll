@@ -7,3 +7,6 @@ text:
   primary: 333333
   secondary: 777777
   over_image: FFFFFF
+link:
+  normal: 4477BB
+  hover: 000000
