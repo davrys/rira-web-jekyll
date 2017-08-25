@@ -4,7 +4,7 @@
 
 /*
  * This is the main css file.
- * Uses mobile-first approach.
+ * It uses mobile-first approach.
  */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
@@ -16,13 +16,10 @@
 --*/
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #{{ site.data.color.background.primary }};
+  color: #{{ site.data.color.text.primary }};
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
 }
 h1 {
@@ -59,11 +56,15 @@ ul {
   margin: 0;
   list-style: none;
 }
-a,
-a:active,
+
+a {
+  text-decoration: none !important;
+  color: #{{ site.data.color.text.primary }};
+}
+a:hover,
 a:focus,
 a:active {
-  text-decoration: none !important;
+  color: #{{ site.data.color.text.secondary }};
 }
 
 
@@ -83,6 +84,17 @@ section {
     }
 }
 
+
+.section-title {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.section-title p {
+  font-family: 'Volkhov', sans-serif;
+  text-transform: none;
+  font-style: italic;
+  color: #{{ site.data.color.text.secondary }};
+}
 
 
 /*--
@@ -104,7 +116,7 @@ section {
 
 /* Text decoration */
 .parallax .block {
-  color: #{{ site.color.text.primary_oposite }};
+  color: #{{ site.data.color.text.over_image }};
   padding-top: 20%;
 }
 
