@@ -35,31 +35,9 @@ url: "http://rira.cz" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
 
-path:
-  images:
-    background: "/images/background/"
-    members: "/images/members/"
-
 ########################################
 # Optional features
 ########################################
 
 style:
   animated: true
-
-########################################
-# Colours
-########################################
-# hex-codes without the leading hash-tag
-color:
-  background:
-    primary: FFFFFF
-    secondary: F5F5F5
-  text:
-    primary: 333333
-    secondary: 777777
-    primary_oposite: FFFFFF
-
-########################################
-# Strings
-########################################

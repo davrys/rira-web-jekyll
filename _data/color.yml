@@ -1,0 +1,9 @@
+# Colours
+# hex-codes without the leading hash-tag
+background:
+  primary: FFFFFF
+  secondary: F5F5F5
+text:
+  primary: 333333
+  secondary: 777777
+  over_image: FFFFFF

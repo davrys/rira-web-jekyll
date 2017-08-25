@@ -1,0 +1,4 @@
+# Paths/URLs
+images:
+  background: "/images/background/"
+  members: "/images/members/"
