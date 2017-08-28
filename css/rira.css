@@ -112,6 +112,14 @@ footer {
   text-align: center;
   padding: 30px 0;
 }
+/*
+  Zero padding in section inside footer.
+  https://www.w3schools.com/cssref/css_selectors.asp
+*/
+footer section {
+  padding: 0;
+}
+
 
 /*
   Row with equal-height columns
