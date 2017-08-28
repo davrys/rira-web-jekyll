@@ -105,6 +105,17 @@ section {
 
 
 /*
+  Row with equal-height columns
+  https://stackoverflow.com/questions/19695784/how-can-i-make-bootstrap-columns-all-the-same-height
+*/
+.equal-height {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+
+/*
   footer
 */
 footer {
@@ -120,16 +131,6 @@ footer section {
   padding: 0;
 }
 
-
-/*
-  Row with equal-height columns
-  https://stackoverflow.com/questions/19695784/how-can-i-make-bootstrap-columns-all-the-same-height
-*/
-.equal-height {
-  display: flex;
-  display: -webkit-flex;
-  flex-wrap: wrap;
-}
 
 /*
   about
