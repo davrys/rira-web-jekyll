@@ -11,9 +11,9 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
 
-/*--
+/*
 	Common Css
---*/
+*/
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #{{ site.data.color.background.primary }};
@@ -69,7 +69,9 @@ a:active {
 }
 
 
-
+/*
+  section
+*/
 section {
   /* top and bottom padding */
   padding: 50px 0;
@@ -86,6 +88,9 @@ section {
 }
 
 
+/*
+  section title
+*/
 .section-title {
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -99,6 +104,9 @@ section {
 }
 
 
+/*
+  footer
+*/
 footer {
   background-color: #{{ site.data.color.background.secondary }};
   text-align: center;
@@ -106,6 +114,9 @@ footer {
 }
 
 
+/*
+  about
+*/
 .about .block {
   margin-bottom: 30px;
 }
