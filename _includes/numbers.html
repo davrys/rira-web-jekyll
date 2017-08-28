@@ -1,52 +1,54 @@
-<!-- Content Start -->
 <section id="testimonial">
-  <div class="container">
-    <div class="row">
-      <div class="section-title text-center">
-        <h2>V číslech</h2>
-        <p>Nevedeme si statistiky, nicméně inženýrský odhad bývá dostatečně přesný :)</p>
+  <div class="numbers">
+    <div class="container">
+
+      <div class="row">
+        <div class="section-title">
+          <h2>V číslech</h2>
+          <p>Nevedeme si statistiky, nicméně inženýrský odhad bývá dostatečně přesný :)</p>
+        </div>
       </div>
-    </div>
 
-    <!-- http://ionicons.com/ -->
-    <div class="row">
-      <div class="col-xs-12">
-        <div class="block">
-          <ul class="counter-box clearfix">
-            
-            <li>
-              {% assign years = site.time | date: "%Y" | minus:2007 %} <!-- How many years is the band rehearsing -->
-              {% assign months_this_year = site.time | date: "%m" %} <!-- Number of months passed this year -->
-              {% assign months = years | minus:1 | times:12 | plus:months_this_year %} <!-- How many months is the band rehearsing -->
-              {% assign hours = months | times:2 | times:3 %} <!-- Months * 2 rehearsals per month * 3 hours duration -->
-              <div class="block">
-                <i class="ion-clock"></i>
-                <h4 class="counter">{{ hours }}</h4>
-                <span>Hodin na zkouškách</span>
-              </div>
-            </li>
+      <!-- http://ionicons.com/ -->
+      <div class="row">
 
-            <li>
+        <div class="col-xs-4">
+            <div class="counter-box clearfix">
+                {% assign years = site.time | date: "%Y" | minus:2007 %} <!-- How many years is the band rehearsing -->
+                {% assign months_this_year = site.time | date: "%m" %} <!-- Number of months passed this year -->
+                {% assign months = years | minus:1 | times:12 | plus:months_this_year %} <!-- How many months is the band rehearsing -->
+                {% assign hours = months | times:2 | times:3 %} <!-- Months * 2 rehearsals per month * 3 hours duration -->
+                <div class="block">
+                  <i class="ion-clock"></i>
+                  <h4 class="counter">{{ hours }}</h4>
+                  <p>Hodin na zkouškách</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-xs-4">
+            <div class="counter-box clearfix">
               <div class="block">
                 <i class="ion-music-note"></i>
                 <h4 class="counter">64</h4>
-                <span>Písní a skladeb</span>
+                <p>Písní a skladeb</p>
               </div>
-            </li>
+            </div>
+          </div>
 
-            <li>
+          <div class="col-xs-4">
+            <div class="counter-box clearfix">
               {% assign events_count = site.data.events.size | minus:1 %} <!-- Minus first row (titles) -->
               <div class="block">
                 <i class="ion-mic-b"></i>
                 <h4 class="counter">{{ events_count }}</h4>
                 <span>Koncertů</span>
               </div>
-            </li>
+            </div>
+          </div>
 
-          </ul>
         </div>
-      </div>
-      
+
     </div>
   </div>
 </section>

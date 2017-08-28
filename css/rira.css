@@ -164,6 +164,23 @@ footer {
 
 
 /*
+  numbers
+*/
+.numbers {
+  text-align: center;
+}
+.numbers .section-title {
+  padding-bottom: 40px;
+}
+.numbers .block {
+  color: #{{ site.data.color.text.primary }};
+}
+.numbers .block i {
+  font-size: 36px;
+}
+
+
+/*
   Parallax
 
   For flexibility and non-repetetive code purpose,
