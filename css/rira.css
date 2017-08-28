@@ -114,13 +114,34 @@ footer {
 }
 
 
-/*--
+/*
+  member
+*/
+.member img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.member h4 {
+  padding-top: 20px;
+  color: #{{ site.data.color.text.primary }};
+}
+.member i {
+  color: #{{ site.data.color.text.secondary }};
+}
+.member p {
+  padding-top: 30px;
+  color: #{{ site.data.color.text.secondary }};
+}
+
+
+/*
   Parallax
 
   For flexibility and non-repetetive code purpose,
   you have to specify the background-image by your own elsewhere.
   See _includes/parallax.html
---*/
+*/
 .parallax {
   width: 100%;
   min-height: 240px;

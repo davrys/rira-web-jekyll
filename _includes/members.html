@@ -1,66 +1,23 @@
-<!-- https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp -->
-
-<!-- Team members -->
-<section id="service">
+<section id="members">
   <div class="container">
 
     <div class="row">
       <div class="section-title">
         <h2>Členové kapely</h2>
-        <p></p>
       </div>
     </div>
 
     <div class="row ">
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="service-item">
-          <img src="{{ site.baseurl }}{{site.data.path.images.members}}klara.jpg" alt="Klára Lašťovičková">
-          <h4>Klára Lašťovičková</h4>
-          <p>zpěv</p>
-          <p>Díky tátovi a rodné kapele doslova vyrostla na irské hudbě. Dělá jí radost zpívat lidem, kteří dokáží ocenit tuto úžasnou hudbu, jež v sobě nese nejen líbivost a tradici, ale i pořádnou dávku energie. Nejmilejší z nástrojů je jí whistle, ale od malička sní o hře na harfu. Mimo jiné se učí irštinu, operní zpěv a klasický balet, neboť jí učí skromnosti a disciplíně. Miluje každodenní ranní běh a je závislá na horké čokoládě.</p>
+      {% for member in site.data.members %}
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="member">
+            <img src="{{ site.baseurl }}{{site.data.path.images.members}}{{ member.image }}" alt="{{ member.name }}">
+            <h4>{{ member.name }}</h4>
+            <i>{{ member.role }}</i>
+            <p>{{ member.description }}</p>
+          </div>
         </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="service-item">
-          <img src="{{site.data.path.images.members}}danca.jpg" alt="Daniela Vránová">
-          <h4>Daniela Vránová</h4>
-          <p>flétny</p>
-          <p>Do kapely přináší kromě flétny, irské whistle, koncovky a jiných dechů také neopakovatelný a někdy nesnesitelný drive. Pro irské skočné a melancholické balady měla vždy slabost, kterou se zde snaží povýšit na sílu. Momentálně se nachází zřejmě někde mezi klasickým koncem a jazzovým začátkem. Dýchá téměř jen pro kapelu. Zn. Captain.</br></br></p>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="service-item">
-          <img src="{{site.data.path.images.members}}martina.jpg" alt="Martina Kuglerová">
-          <h4>Martina Kuglerová</h4>
-          <p>housle, zpěv</p>
-          <p>Vždy s úsměvem, vždy s houslemi. Do kapely přináší nejen smyčec, ale i nezaměnitelný hlas, jímž dobarvuje naše skladby. Koneckonců, posoudit můžete sami.</br></br></br></br></br></br></br></br></p>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="service-item">
-          <img src="{{site.data.path.images.members}}michal.jpg" alt="Michal Rudolf Cádra">
-          <h4>Michal Rudolf Cádra</h4>
-          <p>kytara, zpěv</p>
-          <p>Na sklonku parného léta šestnáctého roku našla RíRa na barrandovském sídlišti kytaristu. Přišel na inzerát, měl vlastní klobouk, kytaru, názor a drobný defekt řeči. A taky touhu naučit se něco nového. Po první zkoušce slíbil, že sníží množství (zbytečných?) tónů v každém taktu produkovaného doprovodu na čtvrtinu a kapela si ho tedy nechala. Přes deset let strávených v BGčku, folku a world music s mandolínou, akordeonem nebo klavírem teď M.R.C. promítá přes kytaru do rířího soundu.
-          </br></br></br></p>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="service-item">
-          <img src="{{site.data.path.images.members}}pavel.jpg" alt="Pavel Brejcha">
-          <h4>Pavel Brejcha</h4>
-          <p>bodhrán, brumle, vejce, chanter, zpěv</p>
-          <p>Pavel (Pavlix) Brejcha se narodil jednoho slunečného rána 9. června 1987 v porodnici Motol. Za dobu svého krátkého života si ho začal docela dobře užívat. Poznal požitky lásky, alkoholu, sportu, šermu, práce a hudby. Ta ho fascinovala od dětství, už když slyšel pět své dospělé příbuzné oplzlé opilecké písně u táborových ohňů, řekl si: toto chci také umět. A postupem času se z něj přece jen stal. I když podprůměrný, ale přece jen muzikant. Jen se nezalekne před žádnou výzvou ani sklenkou lihoviny. A pořád pracuje na svém zdokonalení. Vytyčil si nové cíle, kterých nikdy nedosáhne, ale to nevadí, on je tu a jen tak se ho nikdo nezbaví.</p>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
-        <div class="service-item">
-          <img src="{{site.data.path.images.members}}david.jpg" alt="David Ryšánek">
-          <h4>David Ryšánek</h4>
-          <p>baskytara</p>
-          <p>Hudebně nevzdělaný neprofesionál, což dohání talentem a pílí, hudbu skupiny Rí Ra podbarvuje hutnými spodky a pohání funky riffy, ať již hranými prsty či slapem. Rytmus brousí u funku, melodii u Rí Ry. Pokud není v dosahu elektřiny, rád vezme do rukou djembe. Na pódiu spoluhráče rád a často zlobí drobnými žertíky, jichž si však posluchači často ani nevšimnou. Podle některých je drzý (což je zlomyslná pomluva, jedná se totiž o upřímnost) a málokdy ztrácí dobrou náladu (což je někdy na pěst). David se nedá vyprávět, ten se musí zažít!</p>
-        </div>
-      </div>
+      {% endfor %}
     </div>
 
   </div>
