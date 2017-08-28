@@ -115,8 +115,15 @@ footer {
 
 
 /*
-  member
+  members
 */
+.members .section-title {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.member {
+  text-align: center;
+}
 .member img {
   border-radius: 50%;
   height: 200px;
