@@ -113,6 +113,15 @@ footer {
   padding: 30px 0;
 }
 
+/*
+  Row with equal-height columns
+  https://stackoverflow.com/questions/19695784/how-can-i-make-bootstrap-columns-all-the-same-height
+*/
+.equal-height {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
 
 /*
   about
@@ -134,6 +143,7 @@ footer {
 }
 .member {
   text-align: center;
+  padding-bottom: 40px;
 }
 .member img {
   border-radius: 50%;
