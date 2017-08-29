@@ -1,12 +1,20 @@
-<section id="slider">
+{% capture top_slider_image_url %}{{ site.baseurl }}{{ site.data.path.images.background }}whisky-kilt.jpg{% endcapture %}
+<div class="parallax" style="background-image: url({{ top_slider_image_url }})">
   <div class="container">
     <div class="row">
+
       <div class="col-md-11 col-md-offset-1">
         <div class="block">
-          <h1 class="animated fadeInUp">VÍC NEŽ IRSKÁ HUDBA</h1>
-          <p class="animated fadeInUp"></p>
+          {% if site.style.animated %}
+            <h1 class="animated fadeInUp">Víc než irská hudba</h1>
+            <h5 class="animated fadeInUp"></h5>
+          {% else %}
+            <h1>Víc než irská hudba</h1>
+            <h5></h5>
+          {% endif %}
         </div>
       </div>
+
     </div>
   </div>
-</section>
+</div>
