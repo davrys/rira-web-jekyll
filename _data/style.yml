@@ -1,0 +1,3 @@
+animated: true
+# Show carousel or static image/slider at the top of the website
+top_carousel: true

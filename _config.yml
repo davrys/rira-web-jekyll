@@ -36,8 +36,11 @@ url: "http://rira.cz" # the base hostname & protocol for your site
 baseurl: ""
 
 ########################################
-# Optional features
+# Add front matter to static files
 ########################################
-
-style:
-  animated: true
+defaults:
+  # Add 'carousel' tag to all files in "images/carousel" folder
+  - scope:
+      path: "images/carousel"
+    values:
+      carousel: true

@@ -11,6 +11,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
 
+
 /*
 	Common Css
 */
@@ -209,11 +210,49 @@ footer section {
 }
 
 
+
+/*
+  Item with preserved aspect ratio
+  https://stackoverflow.com/questions/1495407/maintain-the-aspect-ratio-of-a-div-with-css
+*/
+.aspect-ratio-wrapper {
+	position: relative;
+	width: 100%;
+}
+.aspect-ratio-content {
+  position: absolute;
+  top: 0;  bottom: 0;  left: 0;  right: 0;
+}
+.aspect-ratio-3-2  { padding-bottom: 66.666% }
+.aspect-ratio-4-3  { padding-bottom: 75% }
+.aspect-ratio-16-9 { padding-bottom: 56.25% }
+
+
+
+/*
+  Carousel
+  https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
+  https://www.w3schools.com/bootstrap/bootstrap_ref_js_carousel.asp
+*/
+.full-width-carousel {
+  width: 100%;
+}
+.full-width-carousel .item img {
+  width: 100%;
+}
+/*
+  Height is determined automatically by aspect ratio.
+  Use following style definition if you want fixed height.
+  .full-width-carousel .carousel, .full-width-carousel .carousel-inner, .full-width-carousel .item {
+    height: 400px;
+  }
+*/
+
+
 /*
   Parallax
 
-  For flexibility and non-repetetive code purpose,
-  you have to specify the background-image by your own elsewhere.
+  For flexibility and non-repetetive code purpose, you have to specify the background-image by your own elsewhere.
   See _includes/parallax.html
 */
 .parallax {

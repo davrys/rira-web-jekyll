@@ -1,0 +1,86 @@
+<!--
+  https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
+  https://www.w3schools.com/bootstrap/bootstrap_ref_js_carousel.asp
+
+  Accessibility:
+  role="listbox" & role="option"
+  https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_listbox_role
+-->
+
+<div class="aspect-ratio-wrapper">
+<div class="aspect-ratio-16-9"></div>
+<div class="aspect-ratio-content">
+
+<div class="full-width-carousel">
+
+  {% assign interval = 4000 %}
+  {% assign show_caption = false %}
+  {% assign show_indicators = true %}
+  {% assign show_controls = false %}
+
+  <div id="TheCarousel" class="carousel slide" data-ride="carousel" data-interval="{{ interval }}">
+
+    <!-- List of all images to show -->
+    {% assign images = site.static_files | where: "carousel", true %}
+
+    <!-- Slides -->
+    <div class="carousel-inner" role="listbox">
+      {% assign image_number = 0 %}
+
+      {% for image in images %}
+
+        <!-- Only first image must be active -->
+        {% if image_number == 0 %}
+        <div class="item active" role="option">
+        {% else %}
+        <div class="item" role="option">
+        {% endif %}
+
+          <img src="{{ image.path }}" alt="Image">
+          {% if show_caption %}
+            <div class="carousel-caption">
+                <h3>{{ image.basename }}</h3>
+            </div>
+          {% endif %}
+
+        </div> <!-- item -->
+        {% assign image_number = image_number | plus:1 %}
+      {% endfor %}
+    </div>
+
+
+    <!-- Indicators -->
+    {% if show_indicators %}
+      <ol class="carousel-indicators">
+        {% assign image_number = 0 %}
+        {% for image in images %}
+
+          <!-- Only first indicator must be active -->
+          {% if image_number == 0 %}
+            <li data-target="#TheCarousel" data-slide-to="{{ image_number }}" class="active"></li>
+          {% else %}
+            <li data-target="#TheCarousel" data-slide-to="{{ image_number }}"></li>
+          {% endif %}
+
+          {% assign image_number = image_number | plus:1 %}
+        {% endfor %}
+      </ol>
+    {% endif %}
+
+    <!-- Controls -->
+    {% if show_controls %}
+      <a class="left carousel-control" href="#TheCarousel" role="button" data-slide="prev">
+        <span class="icon-prev" style="font-size: 80px"></span>
+        <span class="sr-only">Předchozí</span>
+      </a>
+      <a class="right carousel-control" href="#TheCarousel" role="button" data-slide="next">
+        <span class="icon-next" style="font-size: 80px"></span>
+        <span class="sr-only">Další</span>
+      </a>
+    {% endif %}
+
+  </div> <!-- carousel slide -->
+</div> <!-- full-width-carousel -->
+
+</div> <!-- aspect-ratio-content -->
+</div> <!-- aspect-ratio-wrapper -->
