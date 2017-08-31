@@ -223,9 +223,10 @@ footer section {
   position: absolute;
   top: 0;  bottom: 0;  left: 0;  right: 0;
 }
-.aspect-ratio-3-2  { padding-bottom: 66.666% }
 .aspect-ratio-4-3  { padding-bottom: 75% }
+.aspect-ratio-3-2  { padding-bottom: 66.666% }
 .aspect-ratio-16-9 { padding-bottom: 56.25% }
+.aspect-ratio-21-9 { padding-bottom: 42.857% }
 
 
 
@@ -251,13 +252,16 @@ footer section {
 
 /*
   Parallax
-
   For flexibility and non-repetetive code purpose, you have to specify the background-image by your own elsewhere.
   See _includes/parallax.html
 */
 .parallax {
   width: 100%;
-  min-height: 240px;
+  /*
+    Use height:100% if you are going use parallax within aspect-ratio-wrapper.
+    Otherwise it is good to use something like min-height:240px instead.
+  */
+  height: 100%;
   /* The parallax effect is turned off by default */
   background-attachment: scroll;
   background-position: center;
@@ -268,9 +272,8 @@ footer section {
 /* Text decoration */
 .parallax .block {
   color: #{{ site.data.color.text.over_image }};
-  padding-top: 20%;
+  padding-top: 40%;
 }
-
 .parallax .block h1 {
   letter-spacing: 10px;
   text-transform: uppercase;
@@ -292,28 +295,6 @@ footer section {
 }
 .parallax .block p {
   letter-spacing: 3px;
-}
-
-/* Image size for different screens */
-@media only screen and (min-width: 575px) {
-    .parallax {
-        min-height: 320px;
-    }
-}
-@media only screen and (min-width: 768px) {
-    .parallax {
-        min-height: 400px;
-    }
-}
-@media only screen and (min-width: 992px) {
-    .parallax {
-        min-height: 480px;
-    }
-}
-@media only screen and (min-width: 1200px) {
-    .parallax {
-        min-height: 560px;
-    }
 }
 
 /* Turn on parallax scrolling effect for bigger screens */

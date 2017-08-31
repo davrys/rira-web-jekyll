@@ -1,7 +1,11 @@
-{% capture image_url %}{{ site.baseurl }}{{ site.data.path.images.background }}{{ include.image_name }}{% endcapture %}
-<div class="parallax" style="background-image: url({{ image_url }})">
-  <div class="container">
-    <div class="row">
-    </div>
+
+<div class="aspect-ratio-wrapper">
+<div class="aspect-ratio-21-9"></div>
+<div class="aspect-ratio-content">
+
+  {% capture image_url %}{{ site.baseurl }}{{ site.data.path.images.background }}{{ include.image_name }}{% endcapture %}
+  <div class="parallax" style="background-image: url({{ image_url }})">
   </div>
+
+</div>
 </div>
