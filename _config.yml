@@ -16,7 +16,6 @@ keep_files:
 
 markdown: kramdown
 
-
 ########################################
 # Site settings
 ########################################
@@ -34,6 +33,16 @@ permalink: pretty
 url: "http://rira.cz" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
+
+########################################
+# Analytics
+########################################
+
+# Google services
+# Use either direct GA implementation or set up GTM account
+# - using both will skew your data (leave blank to not use at all)
+google_analytics:
+google_tag_manager:
 
 ########################################
 # Add front matter to static files
