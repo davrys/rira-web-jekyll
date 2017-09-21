@@ -1,5 +1,13 @@
 # _Rí Ra_ for Jekyll
 
+## Inspired by
+[pixyll](https://github.com/johnotander/pixyll)
+
+[airspace](https://github.com/luminousrubyist/airspace-jekyll)
+
+[agency](https://github.com/y7kim/agency-jekyll-theme)
+
+
 ## Web analytics and search engines
 
 You can measure visits to your website either by using [Google Analytics](https://www.google.com/analytics/) tracking embed or the more advanced [Google Tag Manager](https://www.google.com/analytics/tag-manager/) container.
