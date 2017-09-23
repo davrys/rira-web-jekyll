@@ -1,7 +1,6 @@
 # List of video IDs/URLs
-url:
-  youtube: https://www.youtube.com/embed/
-id:
+youtube:
+  url: https://www.youtube.com/embed/
   balcony: vJipHf2bWNA
   parting_glass: Bp4QGlpVQQk
   ireland1: zJigysf60vE
