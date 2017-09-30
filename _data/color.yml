@@ -6,6 +6,7 @@ background:
 text:
   primary: 333333
   secondary: 777777
+  ternary: 909090
   over_image: FFFFFF
 link:
   normal: 4477BB

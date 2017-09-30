@@ -51,7 +51,7 @@ h6 {
 i {
   font-family: 'Volkhov', sans-serif;
   font-style: italic;
-  color: #{{ site.data.color.text.secondary }};
+  color: #{{ site.data.color.text.ternary }};
 }
 p {
   font-size: 15px;
@@ -100,17 +100,14 @@ section {
 .section-title {
   text-transform: uppercase;
   margin-bottom: 30px;
-  color: #{{ site.data.color.text.primary }};
 }
 .section-title i {
   text-transform: none;
   padding-top: 10px;
-  color: #{{ site.data.color.text.secondary }};
 }
 .section-title p {
   text-transform: none;
   padding-top: 10px;
-  color: #{{ site.data.color.text.secondary }};
 }
 
 
