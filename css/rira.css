@@ -7,9 +7,10 @@
  * It uses mobile-first approach.
  */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
-@import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+/* https://www.w3schools.com/howto/howto_google_fonts.asp */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Volkhov);
+@import url(https://fonts.googleapis.com/css?family=Amita);
 
 
 /*
@@ -21,7 +22,6 @@ body {
   color: #{{ site.data.color.text.primary }};
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', sans-serif;
 }
 h1 {
   font-size: 32px;
@@ -47,6 +47,11 @@ h5 {
 h6 {
   font-size: 20px;
   font-weight: normal;
+}
+i {
+  font-family: 'Volkhov', sans-serif;
+  font-style: italic;
+  color: #{{ site.data.color.text.secondary }};
 }
 p {
   font-size: 15px;
@@ -95,11 +100,15 @@ section {
 .section-title {
   text-transform: uppercase;
   margin-bottom: 30px;
+  color: #{{ site.data.color.text.primary }};
+}
+.section-title i {
+  text-transform: none;
+  padding-top: 10px;
+  color: #{{ site.data.color.text.secondary }};
 }
 .section-title p {
-  font-family: 'Volkhov', sans-serif;
   text-transform: none;
-  font-style: italic;
   padding-top: 10px;
   color: #{{ site.data.color.text.secondary }};
 }
@@ -182,14 +191,11 @@ footer section {
 }
 .member h4 {
   padding-top: 20px;
-  color: #{{ site.data.color.text.primary }};
 }
 .member i {
-  color: #{{ site.data.color.text.secondary }};
 }
 .member p {
   padding-top: 30px;
-  color: #{{ site.data.color.text.secondary }};
 }
 
 
@@ -272,11 +278,13 @@ footer section {
 /* Text decoration */
 .parallax .block {
   color: #{{ site.data.color.text.over_image }};
-  padding-top: 40%;
+  padding-top: 35%;
 }
 .parallax .block h1 {
-  letter-spacing: 10px;
+  font-family: 'Amita', sans-serif;
+  font-size: 34px;
   text-transform: uppercase;
+  letter-spacing: 10px;
 }
 .parallax .block h2 {
   letter-spacing: 5px;
