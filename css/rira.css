@@ -9,7 +9,6 @@
 
 /* https://www.w3schools.com/howto/howto_google_fonts.asp */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Volkhov);
 @import url(https://fonts.googleapis.com/css?family=Amita);
 
 
@@ -20,6 +19,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: #{{ site.data.color.background.primary }};
   color: #{{ site.data.color.text.primary }};
+  font-size: 15px;
 }
 h1, h2, h3, h4, h5, h6 {
 }
@@ -49,12 +49,12 @@ h6 {
   font-weight: normal;
 }
 i {
-  font-family: 'Volkhov', sans-serif;
+  /* Remember that icon-fonts like font-awsome are italic -> check the text color! */
   font-style: italic;
   color: #{{ site.data.color.text.ternary }};
+  font-size: 15px;
 }
 p {
-  font-size: 15px;
   line-height: 28px;
   color: #{{ site.data.color.text.secondary }};
 }
