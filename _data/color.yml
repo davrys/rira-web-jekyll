@@ -1,13 +1,16 @@
 # Colours
-# hex-codes without the leading hash-tag
 background:
-  primary: FFFFFF
-  secondary: F5F5F5
+  primary: "#FFFFFF"
+  secondary: "#EEEEEE"
+  tertiary: "#CCCCCC"
+  quaternary: "#AAAAAA"
 text:
-  primary: 333333
-  secondary: 777777
-  ternary: 909090
-  over_image: FFFFFF
+  primary: "#333333"
+  secondary: "#777777"
+  tertiary: "#909090"
+  quaternary: "#909090"
+  over_image_light: "#FFFFFF"
+  over_image_dark: "#506070"
 link:
-  normal: 4477BB
-  hover: 000000
+  normal: "#4477BB"
+  hover: "#000000"
