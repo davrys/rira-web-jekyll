@@ -104,7 +104,10 @@
                   <td>{{ event.time }}</td>
                   <td>{{ event.place }}</td>
                   <td>{{ event.name }}</td>
-                  <td><a href="{{ event.url }}">{{ event.url_name }}</a></td>
+                  <!-- Show only the root of the url -->
+                  <!-- "http://rira.cz/events/" => "http:, , rira.cz, events" => "rira.cz" -->
+                  {% assign eventUrlParts = event.url | split: '/' %}
+                  <td><a href="{{ event.url }}">{{ eventUrlParts[2] }}</a></td>
                 </tr>
               {% endif %}
 
