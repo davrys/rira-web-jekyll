@@ -68,13 +68,6 @@
 
             <!-- Sort events by date -->
             {% assign events = (site.data.events | sort: 'date' | reverse) %}
-            <!-- 
-            {% if all_events %}
-              {% assign events = (site.data.events | sort: 'date') | reverse %}
-            {% else %}
-              {% assign events = (site.data.events | sort: 'date') %}
-            {% endif %}
-            -->
 
             <!-- Last displayed year -->
             {% assign last_year = 0 %}
