@@ -8,8 +8,8 @@
     </div>
 
     <div class="row" align="center">
-      <div class="block">
-        <img src="{{ site.baseurl }}{{ site.data.path.images.common }}news.jpg" alt="News" style="width: 70%; height: 70%">
+      <div class="block">{% capture image_url %}{{ site.baseurl }}{{ site.data.path.images.news }}{{ include.image_name}}{% endcapture %}
+        <img src="{{ image_url }}" alt="News" style="width: 100%" %>
       </div>
     </div>
 
