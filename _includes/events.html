@@ -6,6 +6,7 @@
 
           {% assign all_events = include.all_events %}
           {% assign separate_years = include.separate_years %}
+          {% assign sort_ascending = include.sort_ascending %}
 
           <div class="section-title">
             {% if all_events %}
@@ -67,7 +68,11 @@
             {% endif %}
 
             <!-- Sort events by date -->
-            {% assign events = (site.data.events | sort: 'date' | reverse) %}
+            {% if sort_ascending %}
+              {% assign events = (site.data.events | sort: 'date') %}
+            {% else %}
+              {% assign events = (site.data.events | sort: 'date' | reverse) %}
+            {% endif %}
 
             <!-- Last displayed year -->
             {% assign last_year = 0 %}
