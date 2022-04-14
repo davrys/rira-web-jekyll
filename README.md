@@ -8,7 +8,7 @@
 [agency](https://github.com/y7kim/agency-jekyll-theme)
 
 
-## Web analytics and search engines
+# Web analytics and search engines
 
 You can measure visits to your website either by using [Google Analytics](https://www.google.com/analytics/) tracking embed or the more advanced [Google Tag Manager](https://www.google.com/analytics/tag-manager/) container.
 * For Google Analytics set up the value for `google_analytics`, it should be something like `google_analytics: UA-XXXXXXXX-X`.
@@ -17,20 +17,20 @@ You can measure visits to your website either by using [Google Analytics](https:
 * Remember that you need to properly configure the GTM container in its admin panel if you want it to work. More info is available in [GTM's docs](https://www.google.com/analytics/tag-manager/resources/).
 
 
-## Docker
+# Docker
 
-### Install Jekyll Docker image
+## Install Jekyll Docker image
 ```
 docker pull jekyll/jekyll
 ```
-
-### Run the docker image (and download all dependencies)
+## Run the docker image (and download all dependencies)
 ```
 docker-compose up
 ```
 https://docs.docker.com/compose/overview/
 
-### Useful Docker commands
+
+## Useful Docker commands
 https://docs.docker.com/search/?q=prune
 
 #### Remove unused images
