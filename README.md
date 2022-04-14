@@ -27,6 +27,10 @@ docker pull jekyll/jekyll
 ```
 docker compose up
 ```
+or
+```
+docker compose up "site" --remove-orphans
+```
 https://docs.docker.com/compose/overview/
 
 

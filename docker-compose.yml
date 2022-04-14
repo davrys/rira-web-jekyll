@@ -2,10 +2,17 @@
 # https://github.com/envygeeks/jekyll-docker/blob/master/README.md
 # https://kristofclaes.github.io/2016/06/19/running-jekyll-locally-with-docker/
 
-jekyll:
-    image: jekyll/jekyll # Use latest Jekyll version
+services:
+  site:
+    # command: jekyll serve
     command: jekyll serve --watch --incremental --livereload
-    ports:
-        - 4000:4000
+    image: jekyll/jekyll:latest
     volumes:
-        - .:/srv/jekyll
+      - .:/srv/jekyll
+    ports:
+      - 4000:4000
+  build:
+    command: jekyll build
+    image: jekyll/jekyll:latest
+    volumes:
+      - .:/srv/jekyll
