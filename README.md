@@ -25,7 +25,7 @@ docker pull jekyll/jekyll
 ```
 ## Run the docker image (and download all dependencies)
 ```
-docker-compose up
+docker compose up
 ```
 https://docs.docker.com/compose/overview/
 
