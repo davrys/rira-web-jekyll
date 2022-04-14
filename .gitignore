@@ -1,7 +1,14 @@
 .DS_Store.bundle
 .sass-cache
 Gemfile.lock
-_site
 ignore
 .jekyll-metadata
 .jekyll-cache
+
+_site/css
+_site/downloads
+_site/fonts
+_site/gem
+_site/images
+_site/js
+_site/404.html
