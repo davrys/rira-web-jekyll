@@ -7,6 +7,9 @@
 
 [agency](https://github.com/y7kim/agency-jekyll-theme)
 
+## Used resources
+
+[Font Awesome](https://fontawesome.com/v4/icons/)
 
 # Web analytics and search engines
 
