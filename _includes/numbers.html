@@ -13,41 +13,46 @@
       <div class="row">
 
         <div class="col-xs-4">
-            <div class="counter-box clearfix">
-                {% assign years = site.time | date: "%Y" | minus:2007 %} <!-- How many years is the band rehearsing -->
-                {% assign months_this_year = site.time | date: "%m" %} <!-- Number of months passed this year -->
-                {% assign months = years | minus:1 | times:12 | plus:months_this_year %} <!-- How many months is the band rehearsing -->
-                {% assign hours = months | times:2 | times:3 %} <!-- Months * 2 rehearsals per month * 3 hours duration -->
-                <div class="block">
-                  <i class="ion-clock"></i>
-                  <h4 class="counter">{{ hours }}</h4>
-                  <p>Hodin na zkouškách</p>
-                </div>
+          <div class="counter-box clearfix">
+            {% assign years = site.time | date: "%Y" | minus:2007 %}
+            <!-- How many years is the band rehearsing -->
+            {% assign months_this_year = site.time | date: "%m" %}
+            <!-- Number of months passed this year -->
+            {% assign months = years | minus:1 | times:12 | plus:months_this_year %}
+            <!-- How many months is the band rehearsing -->
+            {% assign hours = months | times:2 | times:3 %}
+            <!-- Months * 2 rehearsals per month * 3 hours duration -->
+            <div class="block">
+              <i class="ion-clock"></i>
+              <h4 class="counter">{{ hours }}</h4>
+              <p>Hodin na zkouškách</p>
             </div>
           </div>
-
-          <div class="col-xs-4">
-            <div class="counter-box clearfix">
-              <div class="block">
-                <i class="ion-music-note"></i>
-                <h4 class="counter">72</h4>
-                <p>Písní a skladeb</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xs-4">
-            <div class="counter-box clearfix">
-              {% assign events_count = site.data.events.size | minus:1 %} <!-- Minus first row (titles) -->
-              <div class="block">
-                <i class="ion-mic-b"></i>
-                <h4 class="counter">{{ events_count }}</h4>
-                <p>Koncertů</p>
-              </div>
-            </div>
-          </div>
-
         </div>
+
+        <div class="col-xs-4">
+          <div class="counter-box clearfix">
+            <div class="block">
+              <i class="ion-music-note"></i>
+              <h4 class="counter">78</h4>
+              <p>Písní a skladeb</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-4">
+          <div class="counter-box clearfix">
+            {% assign events_count = site.data.events.size | minus:1 %}
+            <!-- Minus first row (titles) -->
+            <div class="block">
+              <i class="ion-mic-b"></i>
+              <h4 class="counter">{{ events_count }}</h4>
+              <p>Koncertů</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
 
     </div>
   </div>
