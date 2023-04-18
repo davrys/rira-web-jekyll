@@ -1,27 +1,27 @@
 <div class="aspect-ratio-wrapper">
-<div class="aspect-ratio-16-9"></div>
-<div class="aspect-ratio-content">
+  <div class="aspect-ratio-16-9"></div>
+  <div class="aspect-ratio-content">
 
-{% capture top_slider_image_url %}{{ site.baseurl }}{{ site.data.path.images.background }}devin2.jpg{% endcapture %}
-<div class="parallax" style="background-image: url({{ top_slider_image_url }})">
-  <div class="container">
-    <div class="row">
+    {% capture top_slider_image_url %}{{ site.baseurl }}{{ site.data.path.images.background }}vitkov.jpg{% endcapture %}
+    <div class="parallax" style="background-image: url({{ top_slider_image_url }})">
+      <div class="container">
+        <div class="row">
 
-      <div class="col-md-11 col-md-offset-1">
-        <div class="block">
-          {% if site.data.style.animated %}
-            <h1 class="animated fadeInUp">Víc než irská hudba</h1>
-            <h5 class="animated fadeInUp"></h5>
-          {% else %}
-            <h1>Víc než irská hudba</h1>
-            <h5></h5>
-          {% endif %}
+          <div class="col-md-11 col-md-offset-1">
+            <div class="block">
+              {% if site.data.style.animated %}
+              <h1 class="animated fadeInUp">Víc než irská hudba</h1>
+              <h5 class="animated fadeInUp"></h5>
+              {% else %}
+              <h1>Víc než irská hudba</h1>
+              <h5></h5>
+              {% endif %}
+            </div>
+          </div>
+
         </div>
       </div>
-
     </div>
-  </div>
-</div>
 
-</div>
+  </div>
 </div>
