@@ -6,7 +6,7 @@ date,time,place,name,url
 2023-12-16,,Rakovník,Vánoční koncert na náměstí,
 2023-12-02,20:00,Praha,Balbínka,http://www.balbinka.cz/
 2023-10-23,20:00,Praha,Balbínka,http://www.balbinka.cz/
-2022-10-19,19:30,Brno,Stará pekárna,http://www.starapekarna.cz/
+2023-10-19,19:30,Brno,Stará pekárna,http://www.starapekarna.cz/
 2023-09-30,,Zliv u Českých Budějovic,Festival,
 2023-09-15,20:00,Praha,Balbínka,http://www.balbinka.cz/
 2023-09-02,18:30,Zíchovec,Skotské horalské hry,https://skotskovec.itholik.cz/
@@ -66,6 +66,7 @@ date,time,place,name,url
 2020-03-04,20:00,Brno,Stará pekárna,http://www.starapekarna.cz/
 2020-03-03,19:00,Bratislava,Klub pod lampou,https://www.facebook.com/klubpodlampou
 2020-01-13,20:00,Praha,S kapelou Rajtaraj v klubu Vagon,http://www.vagon.cz/
+
 2019-11-27,20:00,Praha,Kamina boat,https://www.kaminaboat.cz/
 2019-11-21,,Praha,Irská ambasáda,
 2019-08-16,21:00,Sedlec u Mikulova,Sedlfest,
@@ -77,6 +78,7 @@ date,time,place,name,url
 2019-03-23,19:00,Liberec,Lidové sady Liberec,http://www.lidovesadyliberec.cz/
 2019-03-21,18:00,Praha,Sv. Patrik v KC Vozovna,http://www.kcvozovna.cz/
 2019-03-15,,Praha,Irské velvyslanectví,
+
 2018-12-02,19:00,Praha,Salmovská literární kavárna,http://www.salmovska.cz/
 2018-10-03,20:00,Etno Brno,Stará pekárna,http://www.starapekarna.cz/
 2018-09-18,19:30,Praha,Carpe Diem,http://www.carpediemflora.cz/
@@ -91,6 +93,7 @@ date,time,place,name,url
 2018-03-16,18:00,Praha,Irské velvyslanectví,
 2018-03-03,19:30,Praha,Fantasy ples,https://www.facebook.com/events/226246294611355/?ti=as
 2018-01-20,19:30,Praha,Klub Kafe Tercie,http://www.klubkafetercie.cz/
+
 2017-12-04,20:00,Brusel,The Music Village,https://www.themusicvillage.com/
 2017-11-21,19:30,Praha,Salmovská literární kavárna,http://www.salmovska.cz/
 2017-10-28,13:25,Zámek Nižbor,Samhain,https://www.facebook.com/events/357473858019782/permalink/361919600908541/
@@ -105,9 +108,12 @@ date,time,place,name,url
 2017-05-02,20:00,Praha,Klub Vagon,http://www.vagon.cz/
 2017-04-30,18:00,Trosky,Beltine,http://beltine.trosky.eu/
 2017-02-21,20:00,Praha,Blues Bahnhof,http://www.bluesbahnhof.com/
+
 2016-05-07,,Poděbrady,Svatba,
 2016-04-30,,Trosky,Beltine,http://beltine.trosky.eu/
+
 2015-11-04,,Brno,Stará pekárna,http://www.starapekarna.cz/
+
 2014-08-09,,Lovosice,Žafest,
 2014-07-11,,Strážnice,Festival slunce,
 2014-06-14,,Zábřeh na moravě,Moravský mumraj,
@@ -117,6 +123,7 @@ date,time,place,name,url
 2014-04-26,,Nižbor,Beltine,
 2014-03-20,,Praha,Soukromá akce,
 2014-02-28,,Praha,Carpe Diem,http://www.carpediemflora.cz/
+
 2013-12-06,,Praha,Vánoční besídka v Krásných ztrátách,
 2013-11-23,,Kolovraty,Klub u Boudů,
 2013-11-22,,Praha,Jihoměstský pivovar,
@@ -132,6 +139,7 @@ date,time,place,name,url
 2013-03-22,,Ostrava,Irish culture festival - gala ples v hotelu Imperial,
 2013-03-15,,Čáslav,Dusíkovo divadlo s taneční skupinou Seamróg,
 2013-03-13,,Praha,Carpe Diem,http://www.carpediemflora.cz/
+
 2012-12-21,,Praha,Staroměstské náměstí,
 2012-12-13,,Praha,Kavárna Dadap,
 2012-10-26,,Praha,Pavlovy narozeniny,
@@ -153,6 +161,7 @@ date,time,place,name,url
 2012-03-17,,Praha,Staroměstská restaurace,
 2012-03-15,,Praha,Staroměstská restaurace,
 2012-02-20,,Praha,Carpe Diem,http://www.carpediemflora.cz/
+
 2011-12-28,,Praha,Vánoční trhy na Staroměstském náměstí,
 2011-12-08,,Praha,Salmovská literární kavárna,http://www.salmovska.cz/
 2011-11-04,,Praha,Muzeum hudby,
@@ -180,6 +189,7 @@ date,time,place,name,url
 2011-01-28,,,Rozhovor na Ethno rádiu,
 2011-01-17,,Katar,,
 2011-01-09,,,Rozhovor na Country rádiu,
+
 2010-11-04,,Praha,Salmovská literární kavárna,http://www.salmovska.cz/
 2010-09-25,,Týnec nad Sázavou,,
 2010-09-20,,Irsko - Dublin,,
@@ -194,6 +204,7 @@ date,time,place,name,url
 2010-05-24,,Praha,Carpe Diem,http://www.carpediemflora.cz/
 2010-03-23,,Praha,Salmovská literární kavárna,http://www.salmovska.cz/
 2010-02-11,,Praha,Popocafepetl,
+
 2009-12-08,,Praha,Klub U náčelníka,
 2009-09-26,,Hrad v Týnci nad Sázavou,,
 2009-08-29,,Zámek Sychrov,Skotské hry,http://www.skotskehry.cz/
@@ -204,6 +215,7 @@ date,time,place,name,url
 2009-03-06,,Praha,Divadlo v Celetné,
 2009-02-18,,Praha - palác Adria,Křest CD 'First of',
 2009-02-12,,Praha,Popocafépetl,
+
 2008-11-28,,Praha,Čajovna Alli Baba,
 2008-11-08,,Jičín,Masarykovo divadlo,
 2008-10-10,,Praha,Salmovská literární kavárna,http://www.salmovska.cz/
