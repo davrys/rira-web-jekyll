@@ -7,24 +7,15 @@ Made from scratch, inspired by [pixyll](https://github.com/johnotander/pixyll), 
 
 # Build
 
-## Installing Jekyll Docker image
+
+1. Install Jekyll Docker image
 
 ```shell
 docker pull jvconseil/jekyll-docker
 ```
 
 
-# Build
-
-https://github.com/envygeeks/jekyll-docker/issues/364
-
-https://hub.docker.com/r/jvconseil/jekyll-docker
-
-[Jekyll Docker](https://github.com/envygeeks/jekyll-docker)
-
-## Step 1
-
-Build the web site (run the docker image and download all dependencies)
+2. Build the web site (run the docker image and download all dependencies)
 
 ```shell
 docker compose up
@@ -36,27 +27,40 @@ or
 docker compose up "site" --remove-orphans
 ```
 
-Docs: https://docs.docker.com/compose/overview/
+See also documentation for [docker compose](https://docs.docker.com/compose/overview/).
 
-## Step 2
 
-Then go to
+3. In your browser go to
 
 ```shell
 http://localhost:4000/
 ```
 
-## Installing Jekyll Docker image
+See also `console ouput` for more instructions.
+
+
+
+## More Jekyll+Docker information
+
+https://github.com/envygeeks/jekyll-docker/issues/364
+
+https://hub.docker.com/r/jvconseil/jekyll-docker
+
+[Jekyll Docker](https://github.com/envygeeks/jekyll-docker)
+
+\
+Installing official Jekyll Docker image
 ```shell
 docker pull jekyll/jekyll:3.8.6
 ```
 
 
-## Used resources
+# Used resources
 
 [Font Awesome](https://fontawesome.com/v4/icons/)
 
-## Web analytics and search engines
+
+# Web analytics and search engines
 
 You can measure visits to your website either by using [Google Analytics](https://www.google.com/analytics/) tracking embed or the more advanced [Google Tag Manager](https://www.google.com/analytics/tag-manager/) container.
 * For Google Analytics set up the value for `google_analytics`, it should be something like `google_analytics: UA-XXXXXXXX-X`.
