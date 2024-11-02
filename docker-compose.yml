@@ -5,13 +5,15 @@ services:
   site:
     command: jekyll serve --watch --incremental --livereload
     # --verbose
-    image: jekyll/jekyll:3.8.6
+    # image: jekyll/jekyll:3.8.6
+    image: jvconseil/jekyll-docker:4.3.3
     volumes:
       - .:/srv/jekyll
     ports:
       - 4000:4000
   build:
     command: jekyll build
-    image: jekyll/jekyll:3.8.6
+    # image: jekyll/jekyll:3.8.6
+    image: jvconseil/jekyll-docker:4.3.3
     volumes:
       - .:/srv/jekyll
