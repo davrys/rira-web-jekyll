@@ -69,9 +69,9 @@
 
             <!-- Sort events by date -->
             {% if sort_ascending %}
-              {% assign events = (site.data.events | sort: 'date') %}
+              {% assign events = (site.data.events | sort: 'date' | where: "confirmed", "TRUE") %}
             {% else %}
-              {% assign events = (site.data.events | sort: 'date' | reverse) %}
+              {% assign events = (site.data.events | sort: 'date' | where: "confirmed", "TRUE" | reverse) %}
             {% endif %}
 
             <!-- Last displayed year -->
