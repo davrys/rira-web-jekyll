@@ -1,93 +1,96 @@
 date,time,place,name,url,confirmed
 2025-12-07,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
 2025-10-10,,Žiar nad Hronom,,,TRUE
-2025-10-03,8:00:00 PM,Praha,Balbínka,http://www.balbinka.cz/,TRUE
+2025-10-03,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
 2025-09-06,,Zichovec,Skotské horalské hry,,TRUE
 2025-07-04,,Kostelík,Skotsko v Kostelíku,,TRUE
-2025-06-19,8:00:00 PM,Praha,Balbínka,http://www.balbinka.cz/,TRUE
+2025-06-19,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
 2025-05-21,,Praha,Malostranská beseda,https://www.malostranska-beseda.cz/club/,TRUE
 2025-05-17,,Skryje,,,TRUE
 2025-05-03,,Nasavrky,Beltine,,TRUE
-2025-04-26,6:00:00 PM,Pardubice,Festival menšinových žánrů,doli.wz.cz,TRUE
-2025-03-25,8:00:00 PM,Praha,Balbínka,http://www.balbinka.cz/,TRUE
-2025-03-17,6:00:00 PM,Beroun,"Kotelna, Sv. Patrik",,TRUE
-2025-03-16,7:00:00 PM,Písek,"Sv. Patrik, Divadlo Fráni Šrámka",,TRUE
-2025-01-21,8:00:00 PM,Praha,Balbínka,http://www.balbinka.cz/,TRUE
+2025-04-26,18:00,Pardubice,Festival menšinových žánrů,doli.wz.cz,TRUE
+2025-04-17,15:00,Jablonec n. N.,Velikonoční slavnosti,www.kulturajablonec.cz,FALSE
+2025-03-25,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
+2025-03-17,,Praha,Three fiddles,,FALSE
+2025-03-16,18:00,Beroun,"Kotelna, Sv. Patrik",,TRUE
+2025-03-15,19:00,Písek,"Sv. Patrik, Divadlo Fráni Šrámka",,TRUE
+2025-03-05,20:00,Praha,Boothill bar,https://boothill.cz/,FALSE
+2025-01-21,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
 2024-12-11,,Praha,"Klementinum, soukromá akce",,TRUE
-2024-12-06,8:00:00 PM,Praha,Balbínka,http://www.balbinka.cz/,TRUE
-2024-10-10,7:30:00 PM,Brno,Stará pekárna,http://www.starapekarna.cz/,TRUE
-2024-10-09,8:00:00 PM,Olomouc,Rozhlasové studio,https://www.mujrozhlas.cz/koncertni-streda,TRUE
-2024-10-08,8:00:00 PM,Praha,klub Vagon s kapelou Kalsarikännit,http://www.vagon.cz/,TRUE
-2024-09-21,8:00:00 PM,Týnec nad Sázavou,Keltský den na hradě,https://www.hradtynec.cz/kalendar-akci/kalendar-akci-1788/491955-keltsky-den/,TRUE
-2024-09-09,8:00:00 PM,Praha,Balbínka,http://www.balbinka.cz/,TRUE
-2024-09-07,2:00:00 PM,Vsetín,Valašské záření,https://www.dkvsetin.cz/page/13159/valasske-zareni,TRUE
-2024-09-07,8:00:00 PM,Velký Týnec,Týnecká folková zahrada,https://www.mestotynec.cz/kalendar-akci/kalendar-akci/219753-keltsky-den/,TRUE
-2024-09-06,5:00:00 PM,Praha,Nomad Beer Festival - Holešovická tržnice,https://www.nomadbeerfestival.cz/,TRUE
-2024-08-24,2:15:00 PM,Zámek Sychrov,Skotské hry,https://www.skotskehry.cz/,TRUE
-2024-08-24,6:00:00 PM,Jaroměř,Festival na hradbách,https://www.facebook.com/profile.php?id=100093045558561,TRUE
-2024-08-17,8:00:00 PM,Potočná (česká kanada),Stodola u Majdy,https://www.facebook.com/groups/1471258913068754/,TRUE
-2024-07-27,9:30:00 PM,Rokytnice v Orl.horách,Horalské hry v zámeckém parku,https://www.facebook.com/Clanorlickychhoralu,TRUE
-2024-07-13,5:00:00 PM,Budyně nad Ohří,Keltský kruh,https://www.keltsky-kruh.cz/,TRUE
-2024-06-29,6:30:00 PM,Brno,Stará radnice (soukromá akce),,TRUE
-2024-06-22,2:00:00 PM,Mariánské Lázně (hotel Krakonoš),Slunovrat,http://www.hotelkrakonos.eu,TRUE
-2024-06-21,7:00:00 PM,Opava,Slunovrat,https://festivalslunovrat.cz,TRUE
-2024-06-21,2:30:00 PM,Lázně Jeseník,Zrcadlový sál,https://www.priessnitz.cz/cz/kulturni-akce/k2491-divadlo/399896-prazska-skupina-ri-ra-two-sisters.html,TRUE
-2024-06-11,8:00:00 PM,Praha,Balbínka,http://www.balbinka.cz/,TRUE
-2024-05-22,6:00:00 PM,Praha,KC Vozovna Žižkov,http://www.kcvozovna.cz/,TRUE
+2024-12-06,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
+2024-10-10,19:30,Brno,Stará pekárna,http://www.starapekarna.cz/,TRUE
+2024-10-09,20:00,Olomouc,Rozhlasové studio,https://www.mujrozhlas.cz/koncertni-streda,TRUE
+2024-10-08,20:00,Praha,klub Vagon s kapelou Kalsarikännit,http://www.vagon.cz/,TRUE
+2024-09-21,20:00,Týnec nad Sázavou,Keltský den na hradě,https://www.hradtynec.cz/kalendar-akci/kalendar-akci-1788/491955-keltsky-den/,TRUE
+2024-09-09,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
+2024-09-07,14:00,Vsetín,Valašské záření,https://www.dkvsetin.cz/page/13159/valasske-zareni,TRUE
+2024-09-07,20:00,Velký Týnec,Týnecká folková zahrada,https://www.mestotynec.cz/kalendar-akci/kalendar-akci/219753-keltsky-den/,TRUE
+2024-09-06,17:00,Praha,Nomad Beer Festival - Holešovická tržnice,https://www.nomadbeerfestival.cz/,TRUE
+2024-08-24,14:15,Zámek Sychrov,Skotské hry,https://www.skotskehry.cz/,TRUE
+2024-08-24,18:00,Jaroměř,Festival na hradbách,https://www.facebook.com/profile.php?id=100093045558561,TRUE
+2024-08-17,20:00,Potočná (česká kanada),Stodola u Majdy,https://www.facebook.com/groups/1471258913068754/,TRUE
+2024-07-27,21:30,Rokytnice v Orl.horách,Horalské hry v zámeckém parku,https://www.facebook.com/Clanorlickychhoralu,TRUE
+2024-07-13,17:00,Budyně nad Ohří,Keltský kruh,https://www.keltsky-kruh.cz/,TRUE
+2024-06-29,18:30,Brno,Stará radnice (soukromá akce),,TRUE
+2024-06-22,14:00,Mariánské Lázně (hotel Krakonoš),Slunovrat,http://www.hotelkrakonos.eu,TRUE
+2024-06-21,19:00,Opava,Slunovrat,https://festivalslunovrat.cz,TRUE
+2024-06-21,14:30,Lázně Jeseník,Zrcadlový sál,https://www.priessnitz.cz/cz/kulturni-akce/k2491-divadlo/399896-prazska-skupina-ri-ra-two-sisters.html,TRUE
+2024-06-11,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
+2024-05-22,18:00,Praha,KC Vozovna Žižkov,http://www.kcvozovna.cz/,TRUE
 2024-05-22,,Cheb,Projektový den ve 4. základní škole,https://www.4zscheb.cz,TRUE
 2024-05-18,,Skryje,Městské trhy + tanečníci Sona Sól,,TRUE
 2024-04-06,,Pardubice,Doli klub,http://www.doli.wz.cz/,TRUE
 2024-04-05,,Hradec Králové,AC klub,http://acklubhk.cz/,TRUE
 2024-03-17, ,Praha,The Three Fiddles,https://www.thethreefiddles.cz/,TRUE
-2024-03-16,8:00:00 PM,Brno,Sv. Patrick @ The Immigrant irish pub,https://theimmigrant.cz,TRUE
-2024-03-08,7:00:00 PM,Velké Meziříčí,Sv. Patrik,,TRUE
-2024-03-05,8:00:00 PM,Praha,Balbínka,http://www.balbinka.cz/,TRUE
-2024-01-23,8:00:00 PM,Praha,Balbínka,http://www.balbinka.cz/,TRUE
-2023-12-16,2:15:00 PM,Rakovník,Vánoční koncert na Husově náměstí,,TRUE
-2023-12-12,8:00:00 PM,Praha,klub Vagon,http://www.vagon.cz/,TRUE
-2023-12-02,8:00:00 PM,Praha,Balbínka,http://www.balbinka.cz/,TRUE
-2023-11-04,6:00:00 PM,Sebranice u Litomyšle č.p. 8,Samhain,https://www.facebook.com/events/301205269285522,TRUE
-2023-10-23,8:00:00 PM,Praha,Balbínka,http://www.balbinka.cz/,TRUE
-2023-10-21,6:00:00 PM,Zámek Nižbor,Samhain,https://www.facebook.com/events/1439406106841919,TRUE
-2023-10-19,7:30:00 PM,Brno,Stará pekárna,http://www.starapekarna.cz/,TRUE
+2024-03-16,20:00,Brno,Sv. Patrick @ The Immigrant irish pub,https://theimmigrant.cz,TRUE
+2024-03-08,19:00,Velké Meziříčí,Sv. Patrik,,TRUE
+2024-03-05,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
+2024-01-23,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
+2023-12-16,14:15,Rakovník,Vánoční koncert na Husově náměstí,,TRUE
+2023-12-12,20:00,Praha,klub Vagon,http://www.vagon.cz/,TRUE
+2023-12-02,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
+2023-11-04,18:00,Sebranice u Litomyšle č.p. 8,Samhain,https://www.facebook.com/events/301205269285522,TRUE
+2023-10-23,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
+2023-10-21,18:00,Zámek Nižbor,Samhain,https://www.facebook.com/events/1439406106841919,TRUE
+2023-10-19,19:30,Brno,Stará pekárna,http://www.starapekarna.cz/,TRUE
 2023-09-30,,Zliv u Českých Budějovic,Festival,,TRUE
-2023-09-15,8:00:00 PM,Praha,Balbínka,http://www.balbinka.cz/,TRUE
-2023-09-02,6:30:00 PM,Zíchovec,Skotské horalské hry,https://skotskovec.itholik.cz/,TRUE
-2023-08-16,7:00:00 PM,Blansko,Muzika pro Karolínku,https://karolinka.ulitablansko.cz/,TRUE
-2023-08-01,10:30:00 PM,Telč,Prázdniny v Telči,https://prazdninyvtelci.cz/program,TRUE
-2023-07-29,6:30:00 PM,Nasavrky,Lughnasad,http://www.lughnasad.cz/,TRUE
+2023-09-15,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
+2023-09-02,18:30,Zíchovec,Skotské horalské hry,https://skotskovec.itholik.cz/,TRUE
+2023-08-16,19:00,Blansko,Muzika pro Karolínku,https://karolinka.ulitablansko.cz/,TRUE
+2023-08-01,22:30,Telč,Prázdniny v Telči,https://prazdninyvtelci.cz/program,TRUE
+2023-07-29,18:30,Nasavrky,Lughnasad,http://www.lughnasad.cz/,TRUE
 2023-07-01,,Kostelík,Skotsko v Kostelíku,https://kostelik.cz/tag/skotsko-v-kosteliku/,TRUE
-2023-06-28,8:00:00 PM,Praha,Balbínka,http://www.balbinka.cz/,TRUE
-2023-05-24,8:00:00 PM,Karlovy vary,Klub Paderewski,https://www.husovka.info/,TRUE
-2023-05-09,8:00:00 PM,Praha,klub Vagon,http://www.vagon.cz/,TRUE
-2023-04-29,8:00:00 PM,Vyskeř,Penzion & Restaurant Vyskeř,http://www.penzionvysker.com/blog/2023/04/13/beltain-koncert-ri-ra-29-dubna-2023,TRUE
-2023-04-24,8:00:00 PM,Praha,Balbínka,http://www.balbinka.cz/,TRUE
-2023-03-25,6:30:00 PM,Praha,Žižkovská noc U vystřelenýho oka,http://www.uvoka.cz/,TRUE
-2023-03-18,7:00:00 PM,Šumperk,Svatý Patrik,https://www.dksumperk.cz/event/keltsky-vecer2023,TRUE
-2023-03-17,8:00:00 PM,Beroun,Svatý Patrik,https://www.mkcberoun.cz/kalendar/detail/449,TRUE
-2023-01-20,8:00:00 PM,Praha,Balbínka,http://www.balbinka.cz/,TRUE
-2023-01-05,4:00:00 PM,Praha,Staroměstské náměstí,,TRUE
-2022-11-25,8:00:00 PM,Praha,Balbínka,http://www.balbinka.cz/,TRUE
-2022-11-02,7:30:00 PM,Brno,Stará pekárna,http://www.starapekarna.cz/,TRUE
+2023-06-28,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
+2023-05-24,20:00,Karlovy vary,Klub Paderewski,https://www.husovka.info/,TRUE
+2023-05-09,20:00,Praha,klub Vagon,http://www.vagon.cz/,TRUE
+2023-04-29,20:00,Vyskeř,Penzion & Restaurant Vyskeř,http://www.penzionvysker.com/blog/2023/04/13/beltain-koncert-ri-ra-29-dubna-2023,TRUE
+2023-04-24,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
+2023-03-25,18:30,Praha,Žižkovská noc U vystřelenýho oka,http://www.uvoka.cz/,TRUE
+2023-03-18,19:00,Šumperk,Svatý Patrik,https://www.dksumperk.cz/event/keltsky-vecer2023,TRUE
+2023-03-17,20:00,Beroun,Svatý Patrik,https://www.mkcberoun.cz/kalendar/detail/449,TRUE
+2023-01-20,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
+2023-01-05,16:00,Praha,Staroměstské náměstí,,TRUE
+2022-11-25,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
+2022-11-02,19:30,Brno,Stará pekárna,http://www.starapekarna.cz/,TRUE
 2022-10-26,,Praha,Samhain v KC Vozovna Žižkov,http://www.kcvozovna.cz/,TRUE
-2022-09-15,8:00:00 PM,Praha,Balbínka,http://www.balbinka.cz/,TRUE
-2022-07-22,4:30:00 PM,Plumlov,Keltská noc,http://www.keltska-noc.cz/,TRUE
+2022-09-15,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
+2022-07-22,16:30,Plumlov,Keltská noc,http://www.keltska-noc.cz/,TRUE
 2022-07-02,,Kostelík,Skotsko v Kostelíku,https://kostelik.cz/tag/skotsko-v-kosteliku/,TRUE
-2022-06-18,8:00:00 PM,Kladruby,Slunovrat,https://www.kladruby.cz/galerie/detail/1241,TRUE
-2022-06-16,8:00:00 PM,Praha,Balbínka,http://www.balbinka.cz/,TRUE
-2022-04-30,6:00:00 PM,Zámek Nižbor,Beltine,https://www.facebook.com/events/3187668618183834/,TRUE
-2022-04-29,8:00:00 PM,Praha,Beltine v Balbínce,http://www.balbinka.cz/,TRUE
-2022-03-18,8:00:00 PM,Domažlice,Peter's pub,https://peeterspub.metro.bar,TRUE
-2022-02-25,8:00:00 PM,Praha,KŘEST ALBA,http://www.balbinka.cz/,TRUE
+2022-06-18,20:00,Kladruby,Slunovrat,https://www.kladruby.cz/galerie/detail/1241,TRUE
+2022-06-16,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
+2022-04-30,18:00,Zámek Nižbor,Beltine,https://www.facebook.com/events/3187668618183834/,TRUE
+2022-04-29,20:00,Praha,Beltine v Balbínce,http://www.balbinka.cz/,TRUE
+2022-03-18,20:00,Domažlice,Peter's pub,https://peeterspub.metro.bar,TRUE
+2022-02-25,20:00,Praha,KŘEST ALBA,http://www.balbinka.cz/,TRUE
 2021-12-02,ZRUŠENO,Praha,Salmovská literární kavárna,http://www.salmovska.cz/,TRUE
-2021-11-03,8:00:00 PM,Brno,Stará pekárna,http://www.starapekarna.cz/,TRUE
-2021-09-17,8:00:00 PM,Praha,Balbínka,http://www.balbinka.cz/,TRUE
+2021-11-03,20:00,Brno,Stará pekárna,http://www.starapekarna.cz/,TRUE
+2021-09-17,20:00,Praha,Balbínka,http://www.balbinka.cz/,TRUE
 2021-09-11,,Praha,Beer fest Holešovice,,TRUE
-2021-09-04,2:00:00 PM,Zichovec,Skotské hry na Zichovci,https://www.facebook.com/events/361184041737088/?acontext=%7B%22source%22%3A%2229%22%2C%22ref_notif_type%22%3A%22plan_user_invited%22%2C%22action_history%22%3A%22null%22%7D&notif_id=1622045051184416&notif_t=plan_user_invited&ref=notif,TRUE
-2021-08-31,8:00:00 PM,Praha,klub Vagon,http://www.vagon.cz/,TRUE
+2021-09-04,14:00,Zichovec,Skotské hry na Zichovci,https://www.facebook.com/events/361184041737088/?acontext=%7B%22source%22%3A%2229%22%2C%22ref_notif_type%22%3A%22plan_user_invited%22%2C%22action_history%22%3A%22null%22%7D&notif_id=1622045051184416&notif_t=plan_user_invited&ref=notif,TRUE
+2021-08-31,20:00,Praha,klub Vagon,http://www.vagon.cz/,TRUE
 2021-08-21,,Jivjany,Keltský skanzen,http://www.vousuvkmen.cz/,TRUE
 2021-08-07,ZRUŠENO,Hrad Veveří,Lughnasad,http://www.lughnasad.cz/,TRUE
-2021-07-17,3:00:00 PM,Budyně nad Ohří,Keltský kruh,http://www.partynaklic.cz/cenik/keltsky-kruh-celtic-circle/hlavni-informace/,TRUE
+2021-07-17,15:00,Budyně nad Ohří,Keltský kruh,http://www.partynaklic.cz/cenik/keltsky-kruh-celtic-circle/hlavni-informace/,TRUE
 2021-06-05,,Werichova vila,Soukromá akce,,TRUE
 2021-04-17,,Divadlo v Celetné,Video stream,https://www.youtube.com/watch?v=jHzdRauJLls&t=14358s,TRUE
 2020-12-19,ZRUŠENO,Rakovník,Vánoční koncert,,TRUE
@@ -95,57 +98,57 @@ date,time,place,name,url,confirmed
 2020-10-15,ZRUŠENO,Brno - Atrium Fakulty sociáních studií MU,Ekofilm,https://www.ekofilm.cz/program/,TRUE
 2020-09-19,,Nové Strašecí,,,TRUE
 2020-09-18,večer,Domažlice,Peter's pub,https://peeterspub.metro.bar,TRUE
-2020-09-05,6:00:00 PM,Valašské meziříčí,I. nádvoří zámku Žerotínů,https://mklub.kzvalmez.cz/udalost/3377-ri-ra/,TRUE
+2020-09-05,18:00,Valašské meziříčí,I. nádvoří zámku Žerotínů,https://mklub.kzvalmez.cz/udalost/3377-ri-ra/,TRUE
 2020-09-03,,,Soukromá akce,,TRUE
-2020-08-29,3:30:00 PM,Zámek Sychrov,Skotské hry,https://www.skotskehry.cz/,TRUE
-2020-08-08,3:00:00 PM,Železná ruda,Železnorudské slavnosti,https://www.zelezna-ruda.cz/zeleznaruda/kalendar-akci.asp?kxdate=2020-08-08,TRUE
+2020-08-29,15:30,Zámek Sychrov,Skotské hry,https://www.skotskehry.cz/,TRUE
+2020-08-08,15:00,Železná ruda,Železnorudské slavnosti,https://www.zelezna-ruda.cz/zeleznaruda/kalendar-akci.asp?kxdate=2020-08-08,TRUE
 2020-07-11,ZRUŠENO,Kostelík,Skotsko v Kostelíku,https://kostelik.cz/tag/skotsko-v-kosteliku/,TRUE
-2020-07-01,7:00:00 PM,Praha,Kamina boat,https://www.kaminaboat.cz/,TRUE
-2020-06-17,6:00:00 PM,Praha,KC Vozovna Žižkov,http://www.kcvozovna.cz/,TRUE
+2020-07-01,19:00,Praha,Kamina boat,https://www.kaminaboat.cz/,TRUE
+2020-06-17,18:00,Praha,KC Vozovna Žižkov,http://www.kcvozovna.cz/,TRUE
 2020-04-07,ZRUŠENO,Praha,Balbínova poetická hospůdka,http://www.balbinka.cz/,TRUE
 2020-03-28,ZRUŠENO,Volduchy u Rokycan,Voldušské skotačení,https://www.facebook.com/groups/1663865267246528/,TRUE
-2020-03-04,8:00:00 PM,Brno,Stará pekárna,http://www.starapekarna.cz/,TRUE
-2020-03-03,7:00:00 PM,Bratislava,Klub pod lampou,https://www.facebook.com/klubpodlampou,TRUE
-2020-01-13,8:00:00 PM,Praha,S kapelou Rajtaraj v klubu Vagon,http://www.vagon.cz/,TRUE
-2019-11-27,8:00:00 PM,Praha,Kamina boat,https://www.kaminaboat.cz/,TRUE
+2020-03-04,20:00,Brno,Stará pekárna,http://www.starapekarna.cz/,TRUE
+2020-03-03,19:00,Bratislava,Klub pod lampou,https://www.facebook.com/klubpodlampou,TRUE
+2020-01-13,20:00,Praha,S kapelou Rajtaraj v klubu Vagon,http://www.vagon.cz/,TRUE
+2019-11-27,20:00,Praha,Kamina boat,https://www.kaminaboat.cz/,TRUE
 2019-11-21,,Praha,Irská ambasáda,,TRUE
-2019-08-16,9:00:00 PM,Sedlec u Mikulova,Sedlfest,,TRUE
-2019-07-27,6:30:00 PM,Nasavrky,Lughnasad,http://www.lughnasad.cz/,TRUE
-2019-06-15,8:40:00 PM,Rudolec u Sokolova,Rudolecký kotlík,https://www.facebook.com/Rudoleck%C3%BD-kotl%C3%ADk-438789519591808/,TRUE
-2019-06-13,7:00:00 PM,Čelákovice,Irish Music Pub,https://www.facebook.com/pg/irishmusicpub,TRUE
-2019-05-25,6:30:00 PM,Borohrádek,Borohrátky,,TRUE
-2019-05-21,8:00:00 PM,Praha,s kapelou Lyndown Town v klubu Vagon,https://www.facebook.com/events/515741298829847/,TRUE
-2019-03-23,7:00:00 PM,Liberec,Lidové sady Liberec,http://www.lidovesadyliberec.cz/,TRUE
-2019-03-21,6:00:00 PM,Praha,Sv. Patrik v KC Vozovna,http://www.kcvozovna.cz/,TRUE
+2019-08-16,21:00,Sedlec u Mikulova,Sedlfest,,TRUE
+2019-07-27,18:30,Nasavrky,Lughnasad,http://www.lughnasad.cz/,TRUE
+2019-06-15,20:40,Rudolec u Sokolova,Rudolecký kotlík,https://www.facebook.com/Rudoleck%C3%BD-kotl%C3%ADk-438789519591808/,TRUE
+2019-06-13,19:00,Čelákovice,Irish Music Pub,https://www.facebook.com/pg/irishmusicpub,TRUE
+2019-05-25,18:30,Borohrádek,Borohrátky,,TRUE
+2019-05-21,20:00,Praha,s kapelou Lyndown Town v klubu Vagon,https://www.facebook.com/events/515741298829847/,TRUE
+2019-03-23,19:00,Liberec,Lidové sady Liberec,http://www.lidovesadyliberec.cz/,TRUE
+2019-03-21,18:00,Praha,Sv. Patrik v KC Vozovna,http://www.kcvozovna.cz/,TRUE
 2019-03-15,,Praha,Irské velvyslanectví,,TRUE
-2018-12-02,7:00:00 PM,Praha,Salmovská literární kavárna,http://www.salmovska.cz/,TRUE
-2018-10-03,8:00:00 PM,Etno Brno,Stará pekárna,http://www.starapekarna.cz/,TRUE
-2018-09-18,7:30:00 PM,Praha,Carpe Diem,http://www.carpediemflora.cz/,TRUE
-2018-07-23,8:00:00 PM,Praha,s kapelou Tradish ve Vagonu,http://www.tradish.dk/index_gb.htm,TRUE
-2018-07-14,9:00:00 PM,Budyně nad Ohří,Keltský kruh,http://www.partynaklic.cz/cenik/keltsky-kruh-celtic-circle/hlavni-informace/,TRUE
-2018-07-06,5:00:00 PM,Kostelík,Skotsko v Kostelíku,https://kostelik.cz/program-skotska-v-kosteliku/,TRUE
-2018-06-27,10:00:00 PM,Praha,Jazzdock,https://www.facebook.com/events/464798933973502/,TRUE
-2018-05-12,7:00:00 PM,Jablonec nad Nisou,45 let Country Sisters,http://www.countrysisters.cz/,TRUE
-2018-04-28,9:00:00 PM,Trosky,Beltine,http://www.beltine.trosky.eu/,TRUE
-2018-04-18,7:30:00 PM,Praha,Klub Kafe Tercie,http://www.klubkafetercie.cz/,TRUE
-2018-03-17,8:00:00 PM,Domažlice,Peter's pub,https://peeterspub.metro.bar,TRUE
-2018-03-16,6:00:00 PM,Praha,Irské velvyslanectví,,TRUE
-2018-03-03,7:30:00 PM,Praha,Fantasy ples,https://www.facebook.com/events/226246294611355/?ti=as,TRUE
-2018-01-20,7:30:00 PM,Praha,Klub Kafe Tercie,http://www.klubkafetercie.cz/,TRUE
-2017-12-04,8:00:00 PM,Brusel,The Music Village,https://www.themusicvillage.com/,TRUE
-2017-11-21,7:30:00 PM,Praha,Salmovská literární kavárna,http://www.salmovska.cz/,TRUE
-2017-10-28,1:25:00 PM,Zámek Nižbor,Samhain,https://www.facebook.com/events/357473858019782/permalink/361919600908541/,TRUE
-2017-10-25,8:00:00 PM,Brno,Stará pekárna,http://www.starapekarna.cz/,TRUE
-2017-09-01,8:45:00 PM,Chrastava,Country festival Vysoká,http://www.hotelfarmavysoka.cz/www-countryfestivalvysoka-cz.php,TRUE
-2017-08-19,7:00:00 PM,Zámek Sychrov,Skotské hry,http://www.skotskehry.cz/,TRUE
-2017-07-29,6:00:00 PM,Nasavrky,Lughnasad,http://www.lughnasad.cz/,TRUE
-2017-07-21,9:00:00 PM,Žamberk,Kovárnafest,http://kovarnafest.cz/,TRUE
-2017-07-08,8:00:00 PM,Poděbrady,Svatba,,TRUE
-2017-06-16,7:00:00 PM,Praha,Soukromá akce,,TRUE
-2017-05-11,7:30:00 PM,Praha,Salmovská literární kavárna,http://www.salmovska.cz/,TRUE
-2017-05-02,8:00:00 PM,Praha,Klub Vagon,http://www.vagon.cz/,TRUE
-2017-04-30,6:00:00 PM,Trosky,Beltine,http://beltine.trosky.eu/,TRUE
-2017-02-21,8:00:00 PM,Praha,Blues Bahnhof,http://www.bluesbahnhof.com/,TRUE
+2018-12-02,19:00,Praha,Salmovská literární kavárna,http://www.salmovska.cz/,TRUE
+2018-10-03,20:00,Etno Brno,Stará pekárna,http://www.starapekarna.cz/,TRUE
+2018-09-18,19:30,Praha,Carpe Diem,http://www.carpediemflora.cz/,TRUE
+2018-07-23,20:00,Praha,s kapelou Tradish ve Vagonu,http://www.tradish.dk/index_gb.htm,TRUE
+2018-07-14,21:00,Budyně nad Ohří,Keltský kruh,http://www.partynaklic.cz/cenik/keltsky-kruh-celtic-circle/hlavni-informace/,TRUE
+2018-07-06,17:00,Kostelík,Skotsko v Kostelíku,https://kostelik.cz/program-skotska-v-kosteliku/,TRUE
+2018-06-27,22:00,Praha,Jazzdock,https://www.facebook.com/events/464798933973502/,TRUE
+2018-05-12,19:00,Jablonec nad Nisou,45 let Country Sisters,http://www.countrysisters.cz/,TRUE
+2018-04-28,21:00,Trosky,Beltine,http://www.beltine.trosky.eu/,TRUE
+2018-04-18,19:30,Praha,Klub Kafe Tercie,http://www.klubkafetercie.cz/,TRUE
+2018-03-17,20:00,Domažlice,Peter's pub,https://peeterspub.metro.bar,TRUE
+2018-03-16,18:00,Praha,Irské velvyslanectví,,TRUE
+2018-03-03,19:30,Praha,Fantasy ples,https://www.facebook.com/events/226246294611355/?ti=as,TRUE
+2018-01-20,19:30,Praha,Klub Kafe Tercie,http://www.klubkafetercie.cz/,TRUE
+2017-12-04,20:00,Brusel,The Music Village,https://www.themusicvillage.com/,TRUE
+2017-11-21,19:30,Praha,Salmovská literární kavárna,http://www.salmovska.cz/,TRUE
+2017-10-28,13:25,Zámek Nižbor,Samhain,https://www.facebook.com/events/357473858019782/permalink/361919600908541/,TRUE
+2017-10-25,20:00,Brno,Stará pekárna,http://www.starapekarna.cz/,TRUE
+2017-09-01,20:45,Chrastava,Country festival Vysoká,http://www.hotelfarmavysoka.cz/www-countryfestivalvysoka-cz.php,TRUE
+2017-08-19,19:00,Zámek Sychrov,Skotské hry,http://www.skotskehry.cz/,TRUE
+2017-07-29,18:00,Nasavrky,Lughnasad,http://www.lughnasad.cz/,TRUE
+2017-07-21,21:00,Žamberk,Kovárnafest,http://kovarnafest.cz/,TRUE
+2017-07-08,20:00,Poděbrady,Svatba,,TRUE
+2017-06-16,19:00,Praha,Soukromá akce,,TRUE
+2017-05-11,19:30,Praha,Salmovská literární kavárna,http://www.salmovska.cz/,TRUE
+2017-05-02,20:00,Praha,Klub Vagon,http://www.vagon.cz/,TRUE
+2017-04-30,18:00,Trosky,Beltine,http://beltine.trosky.eu/,TRUE
+2017-02-21,20:00,Praha,Blues Bahnhof,http://www.bluesbahnhof.com/,TRUE
 2016-05-07,,Poděbrady,Svatba,,TRUE
 2016-04-30,,Trosky,Beltine,http://beltine.trosky.eu/,TRUE
 2015-11-04,,Brno,Stará pekárna,http://www.starapekarna.cz/,TRUE
