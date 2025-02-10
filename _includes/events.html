@@ -85,8 +85,11 @@
             {% for event in events %}
               {% assign event_year = event.date | date: "%Y" %}
               {% assign current_year = site.time | date: "%Y" %}
-
-              {% if all_events or event_year >= current_year %} <!-- Show the event? -->
+              
+              {% assign event_date = event.date | date: "%s" %}
+              {% assign current_date = site.time | date: "%s" %}
+              
+              {% if all_events or event_date >= current_date %} <!-- Show the event? -->
 
                 <!-- New year; Diplay row with year -->
                 {% if event_year != last_year %}
