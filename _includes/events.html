@@ -69,9 +69,11 @@
 
             <!-- Sort events by date -->
             {% if sort_ascending %}
-              {% assign events = (site.data.events | sort: 'date' | where: "confirmed", "TRUE") %}
+              <!-- {% assign events = (site.data.events | sort: 'date' | where: "confirmed", "TRUE") %} -->
+              {% assign events = (site.data.events | sort: 'date') %}
             {% else %}
-              {% assign events = (site.data.events | sort: 'date' | where: "confirmed", "TRUE" | reverse) %}
+              <!-- {% assign events = (site.data.events | sort: 'date' | where: "confirmed", "TRUE" | reverse) %} -->
+              {% assign events = (site.data.events | sort: 'date' | reverse) %}
             {% endif %}
 
             <!-- Last displayed year -->
